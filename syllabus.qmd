@@ -1,0 +1,79 @@
+# __DATA 5690: Computational Methods for FinTech__
+
+### Spring 2024
+
+## Course Information
+
+- Dates: January 8 -- May 1
+- Time: T/Th 9:00 -- 10:15 am
+- Room: Huntsman Hall 124
+- [Course Canvas Page]()
+- [Course GitHub Page]()
+
+## Instructor Information
+
+- [Tyler J. Brough](https://broughtj.github.io/)
+- Office: BUS 719
+- Office Hours: By appointment
+- Email: tyler.brough@usu.edu
+
+## Course Description
+
+Computational finance is an interdisciplinary pillar of modern FinTech, at the intersection of data science, computer science, and economics. In this course students apply tools from computational science and statistics to identify and exploit arbitrage opportunities for entrepreneurial financial innovation. We will view the core concepts of the course through the perspectives of history, philosophy, and economic theory.  
+
+## Course Mechanics
+
+### Course Materials
+
+All course materials will be posted on Canvas, Slack, or the course GitHub repository. Students do not need to purchase any textbook. 
+
+
+### Assessment, Deliverables, and Grading
+
+Student grades will be determined by their final scores on several deliverables:
+
+1. __Probability & Statistics Review Exam__ ($20\%$)
+    - This is a formal exam taken in the testing center. 
+    - You can take this exam as many times as you desire until have achieved a grade that you are satisfied with. 
+    - Students must earn at least $90\%$ on this review exam to pass the course. 
+    - I Cannot emphasize this point enough: ___Probability and statistical inference are crucial foundations for any FinTech project!___
+    - This is a prime candidate for discussion during weekly office hour visits.
+
+2. __Midterm Project__ ($20\%$)
+    - This is a take-home project/exam. It has many dimensions. It is part essay, part computational exercise. 
+    - I am happy to re-grade this together with you in office hours as often as you would like after the initial due date but prior to the end of the semester. 
+    - You will be assessed according to a rubric that will be made available to you (and that you will help to design) prior to the initial due date.
+    - This too is a prime candidate for discussion and feedback during office hour visits.
+    - The subject of this exam is the arbitrage theory of finance. Option pricing, hedging, and dynanamic trading will be the main applied topics.
+    - Your deliverable will be a GitHub repository with all of your work in Quarto markdown files, Jupyter notebooks, Python scripts, etc.
+
+3. __Final Project__ ($20\%$)
+    - This is a take-home project/exam much like the midterm project. It is part essay, part computational exercise.
+    - The same re-grading policy applies to this final project. But the runway is shorter since it is due at the end of the semster. For this reason, I encourage you to get started early.
+    - The topic of this project is financial innvotion in the form of a case study of Metallgesellschaft Refining and Marketing's (MGRM) energy trading business in the early 1990's and their historic trading losses on the New York Merchantile Exchange (NYMEX). 
+    - Your deliverable will be a GitHub repository much like for your midterm. It can even be the same repository for the entire course.
+
+4. __Weekly Homework Assignments__ ($10\%$)
+    - Throughout the semester you will have the opportunity to develop your computational skills through several computational exercises. 
+    - These will receive grades of 1) $\checkmark +$ meaning you had a basically perfect answer, 2) a $\checkmark$ meaning you had a mostly satisfactory answer, and 3) a $\checkmark -$ meaning you still have some work to do. 
+    - Please bring these up in office hour visits.
+    - I am happy to re-grade these as needed throughout the semester until you receive the grade that you desire for each.
+
+5. __Bullet Journal & Zettelkasten__ ($15\%$)
+    - You will be asked to keep a physical Bullet Journal during the course.
+    - We will review this during each office hour visit.
+    - The purpose for this is that FinTech entrepreneurship is knowledge work and you must develop skills in creative knowledge discovery. Physical note-taking is a powerful medium for creative discovery.
+    - You will also be asked to develop a personal knowledge management system in connection with your Bullet Journal.
+    - Much more will be said about the Zettelkasten.
+    - You can customize this to your own needs and desires.
+    - We will review this during each office hour visit.
+    - FinTech entrepreneurship is as much about creative discovery as technical mastery of skills (actually _much more!_) 
+
+6. __Regular Office Hour Visits__ ($15\%$)
+    - I am not at all interested in being your judge.
+    - In my experience nothing gets in the way of learning like grade anxiety. 
+    - Students often view their professors as objects that dispense grades and not so much as a coach or guide in the process of discovery of knowledge and wisdom.
+    - This tends to create an adversarial relationship between students and the professor.
+    - ___I want to avoid this trend at all costs!!!___
+    - My strongest desire is that our classroom becomes a meeting place for the joint discovery of intelligence, knowledge, and wisdom.
+    - My grading policy is that I will re-grade any student work at any time. The University requires that I submit grades for each of you. I refuse to allow this to create an adversarial relationship between us. I want grades to be jointly determined and for every student to feel that they have been awarded a grade that they desire and feel they have earned. 
