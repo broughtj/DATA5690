@@ -2,14 +2,24 @@ project:
   type: book
 
 book:
-  title: "Notes"
-  author: "Norah Jones"
-  date: "1/7/2024"
+  title:    "DATA 5690 Class Notes"
+  subtitle: "Computational Methods for FinTech"
+  author:   "Dr. Tyler J. Brough"
+  date:     "01/11/2024"
   chapters:
     - index.qmd
     - intro.qmd
-    - summary.qmd
+    - part: part_one.qmd
+      chapters:
+        - summary.qmd
+        - prob.qmd
+    - part: part_two.qmd
+      chapters:
+        - two.qmd
     - references.qmd
+  appendices:
+    - appendix-b.qmd
+    - appendix-c.qmd
 
 bibliography: references.bib
 

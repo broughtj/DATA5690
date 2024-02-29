@@ -1,4 +1,4 @@
-# __DATA 5690: Computational Methods for FinTech__
+__DATA 5690: Computational Methods for FinTech__
 
 ### Spring 2024
 
@@ -23,9 +23,9 @@ Computational finance is an interdisciplinary pillar of modern FinTech, at the i
 
 ## Course Mechanics
 
-The orientation of this course is unapologetically philosophical. The main mode of course delivery will be the [Socractic Method](https://en.wikipedia.org/wiki/Socratic_method). I will typically play the role of the questioner, but not exclusively. You are highly encouraged to play this role when appropriate. The Socratic method revolves around asking and answering questions. Ward Farnsworth gets at the essence of this mode better than anyone I know with these quotations: 
+The orientation of this course is unapologetically philosophical. The main mode of course delivery will be the [Socratic Method](https://en.wikipedia.org/wiki/Socratic_method). I will typically play the role of the questioner, but not exclusively. You are highly encouraged to play this role when appropriate. The Socratic method revolves around asking and answering questions. Ward Farnsworth gets at the essence of this mode better than anyone I know with these quotations: 
 
-> _"The Socractic method is a style of thought. It is a help toward intelligence and an antidote to stupidity. This has to be said right away because many people consider the Socratic method, if they consider it at all, to be a technique for teaching. It is that; but the reason the Socratic method is useful in the classroom is that it's a style of thought better than the one we tend to apply naturally to important things. Socrates didn't quesiton people in order to teach us how to question people. He did it to teach us how to think. That is what makes his method a matter of general interest, not a device for specialists or speical occassions."_
+> _"The Socratic method is a style of thought. It is a help toward intelligence and an antidote to stupidity. This has to be said right away because many people consider the Socratic method, if they consider it at all, to be a technique for teaching. It is that; but the reason the Socratic method is useful in the classroom is that it's a style of thought better than the one we tend to apply naturally to important things. Socrates didn't question people in order to teach us how to question people. He did it to teach us how to think. That is what makes his method a matter of general interest, not a device for specialists or special occasions."_
 
 > _"As an inhabitant of a university, I especially mean this book to broadly suggest the ethic by which such institutions function best. Their health requires Socratic commitments: to reason, to refutation, and to not flinching when hard questions are put on the table._ ___A university should be a Socratic gymnasium."___
 
@@ -35,19 +35,19 @@ At the heart of FinTech is entrepreneurial financial innovation (and arbitrage!)
 
 In addition to the Socratic method we will also center our scholarly engagement this semester around an ancient Japanese pedagogy known as [Shuhari](https://en.wikipedia.org/wiki/Shuhari). Shuhari is a ___learning process___ that strongly complements and amplifies the Socratic method. It is a combination of three root Japanese words that form its core and the stages of the cycle of learning:
 
-- __Shu:__ (_"protect"_ or _"obey"_) is the foundational stage in which the student masters the basic core principles of the any discipline. We will take this to mean mastery of the _recieved theory_ represented in textbooks and standard university curricula. 
+- __Shu:__ (_"protect"_ or _"obey"_) is the foundational stage in which the student masters the basic core principles of the any discipline. We will take this to mean mastery of the _received theory_ represented in textbooks and standard university curricula. 
 
-- __Ha:__ (_"detach"_ or _"digress"_) is the _questioning_ phase of the learning process in which the student begins to question and scrutinize the recieved wisdom after having mastered it at the Shu phase.
+- __Ha:__ (_"detach"_ or _"digress"_) is the _questioning_ phase of the learning process in which the student begins to question and scrutinize the received wisdom after having mastered it at the Shu phase.
 
-- __Ri:__ (_"depart"_ or _"separate"_) is the final stage in which the student discovers new knowledge and modes of thought for themself that transcends the recieved wisdom. 
+- __Ri:__ (_"depart"_ or _"separate"_) is the final stage in which the student discovers new knowledge and modes of thought for themself that transcends the received wisdom. 
 
 Very few experiences in higher education ask you to even fulfill completely the Shu phase of this cycle of learning, let alone enter the Ha and Ri phases! FinTech entrepreneurs have no choice but to do so!!! It is essential in a course about knowledge discovery to engage scholarship in a way that embraces this basic fact.
 
-Most students tend to think of their courses as settled subjects or topics that possess an objective reality. ___This is an illusion___. The fact is that nothing is settled and our knowledge is constantly expanding. The wikipedia article on [Mathematics](https://en.wikipedia.org/wiki/Mathematics) contains this astonishing quotation in its first paragraph:
+Most students tend to think of their courses as settled subjects or topics that possess an objective reality. ___This is an illusion___. The fact is that nothing is settled and our knowledge is constantly expanding. The Wikipedia article on [Mathematics](https://en.wikipedia.org/wiki/Mathematics) contains this astonishing quotation in its first paragraph:
 
 > ___"There is no general consensus among mathematicians about a common definition for their academic discipline."___
 
-One might think that if there is one rigorously founded and well-defined subject that underlies all of science, engineering, technology, and modern life that it surely would be mathematics. Alas. The Socratic maxim regarding the constitutional limitations of our knowledge is ever present. What is a truth at the center of mathematics is _a fortoriori_ at the heart of our subject of [Financial Technology](https://en.wikipedia.org/wiki/Fintech) and entrepreneurial innovation. A few of the core central themes of this course are the [___knowledge problem___](https://en.wikipedia.org/wiki/Local_knowledge_problem), the [___problem of induction___](https://en.wikipedia.org/wiki/Problem_of_induction), and [___spontaneous order___](https://en.wikipedia.org/wiki/Spontaneous_order). The Socratic method together with the cycle of learning of Shuhari provide the necessary pedagogical foundations for approaching our challenging subject. Shuhari is a never ending cycle. After having gone through the whole cycle from shu to ha to ri is is necessary to return again to shu and starting the cycle again. Thus it is a dialectic process that will grow with you and facilitate your personal development endlessly!
+One might think that if there is one rigorously founded and well-defined subject that underlies all of science, engineering, technology, and modern life that it surely would be mathematics. Alas. The Socratic maxim regarding the constitutional limitations of our knowledge is ever present. What is a truth at the center of mathematics is _a fortiori_ at the heart of our subject of [Financial Technology](https://en.wikipedia.org/wiki/Fintech) and entrepreneurial innovation. A few of the core central themes of this course are the [___knowledge problem___](https://en.wikipedia.org/wiki/Local_knowledge_problem), the [___problem of induction___](https://en.wikipedia.org/wiki/Problem_of_induction), and [___spontaneous order___](https://en.wikipedia.org/wiki/Spontaneous_order). The Socratic method together with the cycle of learning of Shuhari provide the necessary pedagogical foundations for approaching our challenging subject. Shuhari is a never ending cycle. After having gone through the whole cycle from shu to ha to ri is is necessary to return again to shu and starting the cycle again. Thus it is a dialectic process that will grow with you and facilitate your personal development endlessly!
 
 Please learn about and embrace these core concepts and modes of thought. You will be richly rewarded for having done so!
 
@@ -73,13 +73,13 @@ Student grades will be determined by their final scores on several deliverables:
     - I am happy to re-grade this together with you in office hours as often as you would like after the initial due date but prior to the end of the semester. 
     - You will be assessed according to a rubric that will be made available to you (and that you will help to design) prior to the initial due date.
     - This too is a prime candidate for discussion and feedback during office hour visits.
-    - The subject of this exam is the arbitrage theory of finance. Option pricing, hedging, and dynanamic trading will be the main applied topics.
+    - The subject of this exam is the arbitrage theory of finance. Option pricing, hedging, and dynamic trading will be the main applied topics.
     - Your deliverable will be a GitHub repository with all of your work in Quarto markdown files, Jupyter notebooks, Python scripts, etc.
 
 3. __Final Project__ ($20\%$)
     - This is a take-home project/exam much like the midterm project. It is part essay, part computational exercise.
-    - The same re-grading policy applies to this final project. But the runway is shorter since it is due at the end of the semster. For this reason, I encourage you to get started early.
-    - The topic of this project is financial innvotion in the form of a case study of Metallgesellschaft Refining and Marketing's (MGRM) energy trading business in the early 1990's and their historic trading losses on the New York Merchantile Exchange (NYMEX). 
+    - The same re-grading policy applies to this final project. But the runway is shorter since it is due at the end of the semester. For this reason, I encourage you to get started early.
+    - The topic of this project is financial innovation in the form of a case study of Metallgesellschaft Refining and Marketing's (MGRM) energy trading business in the early 1990's and their historic trading losses on the New York Mercantile Exchange (NYMEX). 
     - Your deliverable will be a GitHub repository much like for your midterm. It can even be the same repository for the entire course.
 
 4. __Weekly Homework Assignments__ ($10\%$)
@@ -116,18 +116,18 @@ The inventor of the [Bullet Journal Method](https://en.wikipedia.org/wiki/Bullet
 
 The basic building blocks of the method are a pen or pencil (but have courage and commitment - use a pen!) and the following concepts that build off the concept of a __spread.__ A spread is a either a one or two page layout that defines a certain step of the BuJo method process.
 
-- __Index:__ the first few pages of your BuJo are reserved for an index. As you adapt and build out your practice you list the items, ideas, concepts, lists, collections, etc that emerge from your practice together with the page numbers where those things show up in your notebook. This is a very important first step. A rookie mistake is to neglect this part of the practice. If you do your thoughts and ideas will sprall across your pages and you will not be able to find them and therefore make synoptic connections. (The zettelkasten method will protect somewhat against this). __Do not neglect the index!__ This is one of the things you will show me in our office hour visits. 
+- __Index:__ the first few pages of your BuJo are reserved for an index. As you adapt and build out your practice you list the items, ideas, concepts, lists, collections, etc that emerge from your practice together with the page numbers where those things show up in your notebook. This is a very important first step. A rookie mistake is to neglect this part of the practice. If you do your thoughts and ideas will sprawl across your pages and you will not be able to find them and therefore make synoptic connections. (The zettelkasten method will protect somewhat against this). __Do not neglect the index!__ This is one of the things you will show me in our office hour visits. 
 
 - __Future Log:__ this spread is either a two or four page spread depending on whether or not you want a full year of future items to capture. This allows you to capture future items in your BuJo practice that are outside of the current month so that you do not lose track of them. You will bring them into your monthly, weekly, and daily routines through the process of reflection and migration.
 
 - __Monthly Log:__ this spread is typically a two-page spread with the left page reserved for the days of the months and monthly events and reminders (like due dates, etc) and the right page is for reflection, tasks, goals, values, priorities, etc. This helps you see your month at a glance. It is crucial to the process of weekly and daily reflection and migration. 
 
-- __Weekly Log:__ this is an (optional) spread -- typically spanning two pages. Not all bullet journalers use it. But I think it is especially helpful for college students to plan out their week in [agile-like](https://en.wikipedia.org/wiki/Agile_software_development) [sprints](https://en.wikipedia.org/wiki/Scrum_(software_development)#Sprint) to organize and control your scholarship for the week. I highly encourage you to experiment with this. Here is a good example from [Ryder Carroll](https://www.youtube.com/watch?v=_jOR_brGbjk) (though not necessarily addressed specifically to students). 
+- __Weekly Log:__ this is an (optional) spread -- typically spanning two pages. Not all bullet journalists use it. But I think it is especially helpful for college students to plan out their week in [agile-like](https://en.wikipedia.org/wiki/Agile_software_development) [sprints](https://en.wikipedia.org/wiki/Scrum_(software_development)#Sprint) to organize and control your scholarship for the week. I highly encourage you to experiment with this. Here is a good example from [Ryder Carroll](https://www.youtube.com/watch?v=_jOR_brGbjk) (though not necessarily addressed specifically to students). 
 
 - __Daily Log:__ this is the core spread of the BuJo method! It is where you will spend most of your time and efforts with the practice. There is no set number of pages you will use for your daily log. You should start it where ever in your notebook the next blank page is and write the date (ex: "01.09.TU") as the header. Then you use use _rapid logging_ (see below) to capture your thoughts, tasks, events, etc. This is where morning and evening reflection will take place. It is also where I suggest you put your _inbox_ for the Zettelkasten method (more below) so that you can capture it easily, naturally, and simply and mark it in your index so that there is a smooth transition from your BuJo and your Zettelkasten. 
 - __Custom Collections:__ are spreads designed by you to augment the basic building blocks. Be creative and see what you can come up with. Don't be afraid to experiment. Examples might be ___prelim exam___, ___midterm project___, ___final project___, ___Zettelkasten system___, etc. Define these on the next blank spread and then reference them in your monthly, weekly, and especially daily logs. Entering them in your index will help you keep track of them across multiple disparate pages.
 
-These are the very basic building blocks that almost any BuJo will contain. You can add to them whatever you come up with. I require that you use at least the core set of these. We will evaluate your notebooks and your experience during our office hour visits. If you google around the internet you will find some very elaborate BuJo notebooks. Don't let this scare you away. Ryder Carroll himself uses a very bare bones and almost starkly simple setup. Aim for the right mix of simplicity and complexity that will best enable your creative thinking. Style or complexity will not be items on the rubic for evaluating this part of your grade -- just how much and in what way it enables your emergent creative thinking and discovery.   
+These are the very basic building blocks that almost any BuJo will contain. You can add to them whatever you come up with. I require that you use at least the core set of these. We will evaluate your notebooks and your experience during our office hour visits. If you google around the internet you will find some very elaborate BuJo notebooks. Don't let this scare you away. Ryder Carroll himself uses a very bare bones and almost starkly simple setup. Aim for the right mix of simplicity and complexity that will best enable your creative thinking. Style or complexity will not be items on the rubric for evaluating this part of your grade -- just how much and in what way it enables your emergent creative thinking and discovery.   
 
 The daily process of reflection and migration is ___the crucial foundation___ of the BuJo method practice! Do not skip this part of it. Start with it first thing in the morning and end the day with it too. I will ask that one of your first daily reflections cover the topic of your learning goals for this class, your hopes and fears about the course, and what you hope to discover or become as a result of engaging with your fellow students and me this semester on the topic of our course. You will share (at least part of) this first reflection with me in our first office hours visit together (you don't have to show me anything personal or subjective that you do not wish to share with anyone else). 
 
@@ -140,19 +140,19 @@ I highly encourage you to purchase and read the book [The Bullet Journal Method]
 
 ### Zettelkasten System
 
-The [Zettelkasten system](https://en.wikipedia.org/wiki/Zettelkasten) is a personal knowledge management and note taking system usually attributed to the German socialogist [Niklas Luhmann](https://en.wikipedia.org/wiki/Niklas_Luhmann) who was uniquely and incredibly prolific in his scholarly output. On its surface this system is about taking ___smart notes___, but in reality like the BuJo method I think something much deeper lurks beneath this surface definition. FinTech entrepreneurship is fundamentally about creative knowledge work and making creative synoptic discoveries between ideas that have never been discovered and presented before. I know of no system that enables the emergence of such creative thought as the Zettelkasten system! Please take it seriously and use it with purpose and dedication throughout the semester. If you do this diligently the writing and programming you will have to do for your projects will come together naturally. 
+The [Zettelkasten system](https://en.wikipedia.org/wiki/Zettelkasten) is a personal knowledge management and note taking system usually attributed to the German sociologist [Niklas Luhmann](https://en.wikipedia.org/wiki/Niklas_Luhmann) who was uniquely and incredibly prolific in his scholarly output. On its surface this system is about taking ___smart notes___, but in reality like the BuJo method I think something much deeper lurks beneath this surface definition. FinTech entrepreneurship is fundamentally about creative knowledge work and making creative synoptic discoveries between ideas that have never been discovered and presented before. I know of no system that enables the emergence of such creative thought as the Zettelkasten system! Please take it seriously and use it with purpose and dedication throughout the semester. If you do this diligently the writing and programming you will have to do for your projects will come together naturally. 
 
 The basic building blocks of the system are the following: 
 
-- __Inbox:__ someplace to capture incoming ideas, thoughts, references, quotations, etc. I strongly suggest that you use your physical BuJo notebook in a daily log for this purpose. This will tightly and deeply connect the two practices together in a way that I think will become very meaningful to you during the course of the semester. But this can be anything: a napkin at a restaurant, the back of an envolope, and note on your smart phone, a file in on your computer, etc. It serves as the entry point into the boundaries of your Zettelkasten system between it and your every day life as you go about your regularly scheduled programming. 
+- __Inbox:__ someplace to capture incoming ideas, thoughts, references, quotations, etc. I strongly suggest that you use your physical BuJo notebook in a daily log for this purpose. This will tightly and deeply connect the two practices together in a way that I think will become very meaningful to you during the course of the semester. But this can be anything: a napkin at a restaurant, the back of an envelope, and note on your smart phone, a file in on your computer, etc. It serves as the entry point into the boundaries of your Zettelkasten system between it and your every day life as you go about your regularly scheduled programming. 
 
-- __Fleeting Note:__ this is typically the kind of thing you will capture in your inbox above. It serves as a temporary place holder as you move ideas, concepts, flashes, references, articles, blog posts, YouTube videos, etc into your system. Fleeting notes are not meant to be permanent nor long-lasting. I typically use my daily spreads in my BuJo, digital notes on my phone that I quickly punch out, or voice recordings that can be trascribed to text with a phone app like Otter. Do whatever suits your needs and works best for you. Fleeting notes might take several forms in your system depending on your flow and your needs. Don't over think it. Just plunge in and experiment!
+- __Fleeting Note:__ this is typically the kind of thing you will capture in your inbox above. It serves as a temporary place holder as you move ideas, concepts, flashes, references, articles, blog posts, YouTube videos, etc into your system. Fleeting notes are not meant to be permanent nor long-lasting. I typically use my daily spreads in my BuJo, digital notes on my phone that I quickly punch out, or voice recordings that can be transcribed to text with a phone app like Otter. Do whatever suits your needs and works best for you. Fleeting notes might take several forms in your system depending on your flow and your needs. Don't over think it. Just plunge in and experiment!
 
 - __Permanent Notes:__ in most Zettelkasten systems these take two forms: 
 
   1. __Literature Notes:__ a note that is meant to live permanently in your system that serves as the main reference for an input item to your system (article, book, chapter, blog post, video, etc). In its most basic form it captures the bibliographic information and a summary of the item ___in your own words.___ I cannot emphasize the last thing too much. It is essential that you learn to capture and summarize ideas in your own words rather than just quoting verbatim the original item. Having said that, from time to time there are really great quotes that you might want to capture for citation. This note is an appropriate place for that purpose. 
 
-  2. __Zettel Notes:__ (redundant because _zettel_ means _note_ in German), but it kind of makes sense in English to treat it as a separte title for this kind of note. This is the main type of note that will exist permantently in your system. But whereas the literature note references another item, this note is meant to capture your own thoughts on a subject. It will often reference and link to a literature note or other zettels.
+  2. __Zettel Notes:__ (redundant because _zettel_ means _note_ in German), but it kind of makes sense in English to treat it as a separate title for this kind of note. This is the main type of note that will exist permanently in your system. But whereas the literature note references another item, this note is meant to capture your own thoughts on a subject. It will often reference and link to a literature note or other zettels.
 
 
 These are the basic building blocks. However, you might wish to add to these. 
@@ -163,34 +163,71 @@ These are the basic building blocks. However, you might wish to add to these.
 
 Some basic principles should govern your practice of the Zettelkast method:
 
-1. _Atomicity:_ make your individual notes atomic. That is, center them around one core idea stated in your own words and link them to other related notes. There are different mindsets about this, but I hightly encourage you to adhere to this practice as your default until and unless you have a (very good reason for not doing so. If you do have such a reason it really ought to emerge out of your daily practice such that the default method constrains you in certain ways that you need freedom from. If you use the default method and such constraints do not inhibit your practice then you have no need for anything other than the default. This way of engaging the practice will avoid needless fiddling and complexity that is only a waste of time and effort. 
+1. _Atomicity:_ make your individual notes atomic. That is, center them around one core idea stated in your own words and link them to other related notes. There are different mindsets about this, but I highly encourage you to adhere to this practice as your default until and unless you have a (very good reason for not doing so. If you do have such a reason it really ought to emerge out of your daily practice such that the default method constrains you in certain ways that you need freedom from. If you use the default method and such constraints do not inhibit your practice then you have no need for anything other than the default. This way of engaging the practice will avoid needless fiddling and complexity that is only a waste of time and effort. 
 
 2. _Emergence:_ Luhmann famously said that he never forced himself to do tasks that he did not enjoy. If he got stuck on something he would let it lie and move on to something else. He loved reading and studying and he would always do so ___within___ his Zettelkasten system. His prolific scholarship really was an emergent process of his cumulative hours reading, thinking, reflecting, and writing. By adhering to the principle of atomicity and writing each note in your own words so much of your writing accumulates by just do the fun part of scholarship. Writing your final output (article, essay, book, etc) becomes a matter of organizing and integrating much of what has already been written by you. Hub notes that serve as project outlines become your structure for writing. Integrating the different atomic notes, collecting literature references, and checking grammar, etc become the ___much easier___ tasks of academic or professional writing compared to trying to sit down and write it all at once.
 
-___The process of knowledge discovery is inherently a nonlinear process!___ The Zettelkasten system can become an adaptive dynamical system that not only tolerates but that ___thrives___ under this nonlinearity. FinTech entrepreneurs are constantly faced with such epistemic problems. This might feel over blown or cumbersome at first, but my advice is to be very diligent with it throughout the semester and trust the system. Do all of your creative thinking and knowledge discovery within your system and allow the ideas and connections to emerge. I think you will seriously enjoy the experience as you do so and will find this mode of engaging scholarship refreshing compared to the standard way of moving through a university course.
+___The process of knowledge discovery is inherently a nonlinear process!___ The Zettelkasten system can become an adaptive dynamical system that not only tolerates but that ___thrives___ under this non-linearity. FinTech entrepreneurs are constantly faced with such epistemic problems. This might feel over blown or cumbersome at first, but my advice is to be very diligent with it throughout the semester and trust the system. Do all of your creative thinking and knowledge discovery within your system and allow the ideas and connections to emerge. I think you will seriously enjoy the experience as you do so and will find this mode of engaging scholarship refreshing compared to the standard way of moving through a university course.
 
-I would ___very strongly___ urge you to thorougly review the following blog post on an [Introduction to the Zettelkasten Method](https://zettelkasten.de/introduction/).
+I would ___very strongly___ urge you to thoroughly review the following blog post on an [Introduction to the Zettelkasten Method](https://zettelkasten.de/introduction/).
 
-You may choose whatever medium you wish to use for your system. Luhmann used a physical system with physical cards, an ingenious identification system, and a set of wooden drawers. I highly encourage you to use specialized modern notetaking software designed for systems like the Zettelkasten method. 
+You may choose whatever medium you wish to use for your system. Luhmann used a physical system with physical cards, an ingenious identification system, and a set of wooden drawers. I highly encourage you to use specialized modern note taking software designed for systems like the Zettelkasten method. 
 
 Here are some suggested options: 
 
 - __Roll Your Own:__ markdown notes, bibtex references, python scripts, Makefiles, a GitHub repository, and a text editor. My current system looks like this and I am happy to share it with you. It is bare bones and simple, but it works. 
 
-- __[Obisidian](https://obsidian.md/):__ is a very powerful markdown based notetaking app for desktop and smartphones. It has a huge community of users and plugins. If you do not have a strong reason to use one of the other systems, I encourage you to use Obsidian. I have previously used it and it is amazing. I still use the iPhone app as part of my _inbox_ system. 
+- __[Obisidian](https://obsidian.md/):__ is a very powerful markdown based note taking app for desktop and smartphones. It has a huge community of users and plugins. If you do not have a strong reason to use one of the other systems, I encourage you to use Obsidian. I have previously used it and it is amazing. I still use the iPhone app as part of my _inbox_ system. 
 
 - __[Notion](https://www.notion.so/):__ is another powerful markdown based app for desktop and smart phones similar to Obsidian. However, it is based around a core concept of a _database_ that may or may not properly facilitate your process. There are many dedicated Notion fans. If you are one of them -- go for it! Otherwise I would point you to Obsidian or one of the other options.
 
 - __[Roam Research](https://roamresearch.com/):__ is another markdown based app and was one of the pioneers of the field. If you know and love Roam then go for it. Otherwise, go for Obsidian.
 
-- __[Org-Mode](https://orgmode.org/)__ and __[Org-Roam](https://www.orgroam.com/):__ are insanely powerful systems based off of the insanely powerful text editor cum operating-system-of-your-life known as __[Emacs](https://en.wikipedia.org/wiki/Emacs)__. This is my current and future system. All I can say is if you know you know. If you don't know you are probably confused about why so many people make such a big deal about an obscure 40-year-old piece of strange software. Emacs + Org will completely and irrevocably re-wire your brain and central nervous system. Beware. But also be adventurous. If you wish to tread this dangerously powerful path let me know and I will help you get going. But I should warn you that this path requires total committment. My experience is that it is very much worth it, but your milage may vary. Unless you have a very strong desire for complete personal transformation and a high tolerance for complexity I would direct you to markdown and Obsidian! 
+- __[Org-Mode](https://orgmode.org/)__ and __[Org-Roam](https://www.orgroam.com/):__ are insanely powerful systems based off of the insanely powerful text editor cum operating-system-of-your-life known as __[Emacs](https://en.wikipedia.org/wiki/Emacs)__. This is my current and future system. All I can say is if you know you know. If you don't know you are probably confused about why so many people make such a big deal about an obscure 40-year-old piece of strange software. Emacs + Org will completely and irrevocably re-wire your brain and central nervous system. Beware. But also be adventurous. If you wish to tread this dangerously powerful path let me know and I will help you get going. But I should warn you that this path requires total commitment. My experience is that it is very much worth it, but your mileage may vary. Unless you have a very strong desire for complete personal transformation and a high tolerance for complexity I would direct you to markdown and Obsidian! 
 
 - __Other Options:__ there are many other options that could work and you are free to explore them and use them as you wish. Please share your adventures on Slack with us!
 
 
+## Outline of Topics
+
+1. Module 1: Microfoundations
+   - Review of maths, probability, and mathematical statistics
+   - Subjective economics \& subjective probability
+   - Economic calculation under conditions of uncertainty
+   - de Finetti's Fundamental Theorems 
+2. Module 2: Arbitrage Theory \& Options Pricing, Hedging, and Dynamic Trading Strategies
+   - The Binomial option pricing model
+   - The Black-Scholes-Merton model 
+   - The Fundamental Theorem of Asset Pricing
+   - Monte Carlo methods for option pricing
+   - Option arbitrage in imperfect markets
+   - Optimal Hedged Monte Carlo (OHMC)
+3. Module 3: Sequential Decisions \& Reinforcement Learning
+   - Markov Decision Processes (MDPs) \& Partially Observed Markov Decision Processes (POMDPs)
+   - Multi-armed bandit algorithms
+   - Reinforcement learning algorithms for financial decision making under uncertainty
+   - Options, search theory, and RL
+4. Module 4: Metallgesellschaft Refining \& Marketing Financial Innovation Case Study
+   - The economics of synthetic storage (Culp \& Miller on MGRM)
+   - The neoclassical critique (Pirrong et al)
+   - Simulating supply (Bollen \& Whaley)
+   - RL revisited 
+   - Superior Predictive Ability (SPA) Tests
+5. Module 5: FinTech Project Showcase
+   - Black's variable tenor mortgage contract
+   - Water derivatives trading
+   - Human capital investing and Income Share Agreements (ISA)
+   - Robo-Advisors
 
 
+## Important Dates
 
+- January 9th: first day of class
+- January 15th: Martin Luther King, Jr. Day (no class)
+- February 19th: Presidents' Day (no class)
+- March 11th -- 15th: Spring Break
+- April 17th -- 23rd: No-Test Week 
+- April 23rd: Last day of class
 
 
 
