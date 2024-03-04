@@ -4,7 +4,7 @@ project:
 book:
   title: "DATA 5690: Midterm"
   author: "Tyler J. Brough"
-  date: "2/28/2024"
+  date: "03/04/2024"
   chapters:
     - index.qmd
     - frequentist.qmd

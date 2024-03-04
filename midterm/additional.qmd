@@ -1,3 +1,27 @@
 # __Additional Topics__ {.unnumbered}
 
-More to come...
+__6.__ The 18th century mathematician [Compte de Buffon](https://en.wikipedia.org/wiki/Georges-Louis_Leclerc,_Comte_de_Buffon) conducted one of the first stochastic simulation exercises by paying a child to play the St. Petersburg game $N = 2048$ times. He argued that after 29 rounds of the game that there would not be enough money in all of France to cover the bet. (Verify his calculation). The finite nature of the bookie's cash reserves is a simple and straight forward resolution of the paradox for most people.
+
+But we're not most people and we have cheap computing power at our hands!
+
+- Conduct a Monte Carlo study of the Buffon experiment ($N = 2048$ trials). Set $M = 1,000,000$.
+
+- Describe the pattern you see. What kind of sampling distribution is this?
+
+- Calculate the typical univariate sample statistics.
+
+- Use the _Central Limit Theorem_ to describe the results. Does the CLT hold? Why or why not?
+
+___NB:___ You'll want to choose your plotting parameters wisely!
+
+
+__7.__ Return to problem 4 above in the _Bayesian Analysis_ portion of the exam. In this question you will be asked to run a Monte Carlo study to analyze the frequentist properties of the Bayesian "estimator" from problem 4. Take the mean of the posterior distribution for $\theta$ (_hint:_ the $Beta(a^{\ast}, b^{\ast}$) distribution) as your point estimate. Simulate $10,000$ samples each of size $n = 1,000$ from the data-generating process. For each sample apply the Bayesian point estimator (i.e. the posterior mean). Save these and make a histogram plot of them. Provide univariate descriptive statistics (mean, media, standard deviation, range, min, max). Do the same thing for the maximum likelihood estimator and compare. What do you find? What does that mean for frequentist vs Bayesian inference?
+
+__NB:__ Make sure to use an uninformative prior (i.e. $Beta(a=1, b=1)$).
+
+
+__8.__ Whereas your task in problem 7 above was to assess the frequentist properties of the Bayesian point estimator for $\theta$, in this question you are asked to derive an approximate Bayesian predictive density from a maximum likelihood estimator (frequentist). Return to problem 5 above in the _Bayesian analysis_ portion of the exam. Compute the maximum likelihood estimator (see also problem 2). Using the MLE point estimate for the original simulated data (problem 2), run a Monte Carlo simulation to generate predictive data from the likelihood function (i.e. Poisson distribution). Re-run the original data-generating simulation but this time set $n = 1,000$ observations and obtain a new MLE point estimate from these data. Now generate $M = 10,000$ repititions from the likelihood function. This is your approximate (frequentist) predictive distribution for $\tilde{y}$ from $p(\tilde{y} | \hat{\lambda}_{MLE})$. 
+
+Now run a posterior predictive simulation from the fully Bayesian model in problem 5. Make sure to use a very diffuse prior. The posterior predictive distribution is a [negative binomial](https://en.wikipedia.org/wiki/Conjugate_prior#When_the_likelihood_function_is_a_discrete_distribution). You can either use that directly or simply take a draw from the posterior (i.e. $\lambda_{draw} \sim Gamma(\alpha^{\ast}, \beta^{\ast}$)) and then use that to take a draw from the likelihood $p(\tilde{y} | \lambda_{draw})$. Repeat this process $M = 10,000$ times. 
+
+Make plots of both predictive distributions and provide univariate summaries of each. Compare thoroughly. What do you find? Is it possible to interpret the frequentist simulation as an _approximate Bayesian_ procedure? How so? 
