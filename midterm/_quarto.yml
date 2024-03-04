@@ -9,10 +9,10 @@ book:
     - index.qmd
     - frequentist.qmd
     - bayesian.qmd
+    - additional.qmd
     - references.qmd
 
 bibliography: references.bib
-csl: 
 
 format:
   html:

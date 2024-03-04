@@ -1,20 +1,20 @@
-# __Bayesian Analysis {.unnumbered}
+# __Bayesian Analysis__ {.unnumbered}
 
 __4.__ Reproduce the statistical inference for the data from problem 1 above but from the subjective Bayesian perspective. 
-	- Assume the agent has a prior of $\theta \sim Beta(a=1, b=1)$.
-	- Compute the posterior distribution.
-	- Make plots of the prior, likelihood and posterior using `matplotlib.pyplot`. 
-	- Calculate the posterior probability that $\theta = 0.5$. 
-	- Compute a $95\%$ equal-tailed credibility interval.
-	- Using Bayes' factors conduct a hypothesis test for $H_{1}: \theta = 0.5$ (i.e. a fair coin) against $H_{2}: \theta \ne 0.5$ (i.e. a biased coin). See @ClydeEtAl2022 Chapter 3 for details on implementing Bayes' factors. 
-	- Interpret the results. Compare the results to the frequentist procedure. 
+
+- Assume the agent has a prior of $\theta \sim Beta(a=1, b=1)$.
+- Compute the posterior distribution.
+- Make plots of the prior, likelihood and posterior using `matplotlib.pyplot`. 
+- Calculate the posterior probability that $\theta = 0.5$. 
+- Compute a $95\%$ equal-tailed credibility interval.
+- Using Bayes' factors conduct a hypothesis test for $H_{1}: \theta = 0.5$ (i.e. a fair coin) against $H_{2}: \theta \ne 0.5$ (i.e. a biased coin). See @ClydeEtAl2022 Chapter 3 for details on implementing Bayes' factors. 
+- Interpret the results. Compare the results to the frequentist procedure. 
 
 __5.__ Reproduce the statistical inference for the data from problem 2 above but from the subjective Bayesian perspective. 
-	- Assume the agent has the prior: $\lambda \sim Gamma(\alpha, \beta)$, which is the conjugate prior for the Poisson likelihood function.
-	- Compute the posterior distribution. 
-	- Make plots of the prior, likelihood, and posterior using `matplotlib.pyplot`.
-	- Compute a $95\%$ equal-tailed credibility interval. 
-	- Using Bayes' factors conduct a hypothesis test for $H_{1}: \lambda = 18$ against $H_{2}: \lambda \ne 18$. Use a diffuse prior for $H_{2}$.
 
+- Assume the agent has the prior: $\lambda \sim Gamma(\alpha, \beta)$, which is the conjugate prior for the Poisson likelihood function.
+- Compute the posterior distribution. 
+- Make plots of the prior, likelihood, and posterior using `matplotlib.pyplot`.
+- Compute a $95\%$ equal-tailed credibility interval. 
+- Using Bayes' factors conduct a hypothesis test for $H_{1}: \lambda = 18$ against $H_{2}: \lambda \ne 18$. Use a diffuse prior for $H_{2}$.
 
-# References

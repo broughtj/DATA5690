@@ -1,3 +1,9 @@
 # __Introduction__ {.unnumbered}
 
-This is your midterm exam.
+This midterm exam covers basic statistical inference from both the frequentist (objectivist) and Bayesian (subjectivist) perspectives. Emphasis is on fundamental understanding and comparative interpretation. 
+
+\vspace{15mm}
+
+::: {.callout-note} 
+If you get stuck make appropriate assumptions, document them, and proceed.
+::: 
