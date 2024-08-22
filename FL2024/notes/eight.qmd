@@ -1,0 +1,6 @@
+# __Real Options Theory__ 
+
+- Search theory
+- Reinforcement learning
+- Real options (OHMC)
+

@@ -1,0 +1,22 @@
+__DATA 5690: Computational Methods for Fintech__
+
+### Fall 2024
+
+## Course Information
+
+- Dates: Aug 26 -- Dec 13
+- Time: M/W 12:00 -- 1:15 pm 
+- Room: Huntsman Hall 132
+- [Course Canvas Page]()
+- [Course GitHub Page]()
+
+
+## Instructor Information
+
+- [Tyler J. Brough](https://broughtj.github.io/)
+- Office: BUS 719
+- Office Hours: By appointment
+- Email: tyler.brough@usu.edu
+
+
+## Course Description

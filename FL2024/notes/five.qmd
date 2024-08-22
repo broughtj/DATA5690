@@ -1,0 +1,4 @@
+# __Operational Subjective Statistical Methods__
+
+
+An introduction to OSSM.

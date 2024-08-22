@@ -1,0 +1,5 @@
+# __Frequentist Sampling Theory__
+
+
+This chapter will cover the frequentist approach to probability and statistics. The main reference will be
+Chapter 3 of @MartinezMartinez2016. 

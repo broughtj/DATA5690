@@ -1,0 +1,11 @@
+# Introduction {.unnumbered}
+
+These notes on ___probability___ are based on Chapter 2 of @MartinezMartinez2016.
+
+We start with the concept of an ___experiment___, which is defined as a _process or action whose outcome cannot be predicted with certainty and would likely change when the experiment is repeated_.
+
+* This is the process by which the data are generated in the real-world.
+* __NB:__ It does not necessarily imply that the agent has complete or even partial experimental control.
+
+Next we define the ___sample space___ denoted by $S$.
+

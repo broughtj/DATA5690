@@ -1,0 +1,35 @@
+project:
+  type: book
+
+book:
+  title:    "DATA 5690 Class Notes"
+  subtitle: "Computational Methods for Fintech"
+  author:   "Dr. Tyler J. Brough"
+  date:     "08/14/2024"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - part: part_one.qmd
+      chapters:
+        - one.qmd
+    - part: part_two.qmd
+      chapters:
+        - two.qmd
+        - three.qmd
+        - four.qmd
+        - five.qmd
+    - part: part_three.qmd
+      chapters:
+        - six.qmd
+        - seven.qmd
+        - eight.qmd
+    - references.qmd
+
+bibliography: references.bib
+csl: taylor-and-francis-apa.csl
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt

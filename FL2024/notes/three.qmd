@@ -1,0 +1,6 @@
+# __Probability__ 
+
+
+This section will cover probability. The main references will be Chapter 2 of @MartinezMartinez2016.
+
+
