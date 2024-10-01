@@ -20,7 +20,7 @@
               version = "1.0.0";
               src = pkgs.fetchPypi {
                 inherit pname version;
-                sha256 = "0hc97k7bbrxj3d2z78jzszx45jhb7k6s2j8wi9jg2lp1qx3bpj5c";
+                sha256 = "sha256-+ENBvGKySF1WBKc9X6x+kZdbS5zV9KWpz2CJAuoAy0A=";
               };
               doCheck = false;
               propagatedBuildInputs = [ numpy ];
