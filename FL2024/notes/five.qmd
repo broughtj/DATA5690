@@ -1,4 +1,10 @@
 # __Operational Subjective Statistical Methods__
 
+> _The thesis we propound ... is that scientific reasoning is reasoning in accordance with the calculus
+> of probabilities._ [@HowsonUrbach2006, p. 10]
 
-An introduction to OSSM.
+> _The logic of probability merely formalizes the coherent implications of specified beliefs about events
+> when the beliefs are expressed in a graded scale from 0 (complete denial) to 1 (complete affirmation).
+> This logic is relevant to_ ___anyone's___ _uncertain knowledge about any unknown observable quantities.
+> The "scientific method" empowers the scientist with precisely the same inferential principles that it
+> empowers the person on the street in the conduct of daily affairs, no more and no less._ [@Lad1996, p. 13]

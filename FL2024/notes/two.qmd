@@ -1,7 +1,185 @@
-# __Analysis of Deterministic Cash Flows__ 
+# __The Basic Theory of Interest__ { .unnumbered } 
 
 
-This section will cover basic time value of money calculations. The main references will be Chapter 2
-of @Luenberger2013.
+This section will cover basic time value of money calculations. The main references will [@Luenberger2013, Chapter 2].
+
+## **2.1 Principal and Interest**
+
+### Simple Interest 
+
+$$
+V = (1 + rn)A
+$$
+
+If the proportional rule holds for fraction years, then after any time $t$ (always measured in years!), the account value is
+
+$$
+V = (1 + rt)A
+$$
+
+The account grows *linearly* with time. 
+
+### Compound Interest
+
+**The Seven-Ten Rule** *Money invested at $7\%$ per year doubles in approximately 10 years. Also, money invested at $10\%$ per year doubles in approximately 7 years.*
 
 
+### Compounding at Various Intervals
+
+The effective rate is the number $r^{\prime}$ that satisfies: $1 + r^{\prime} = [1 + (r/m)]^{m}$.
+
+
+### Continuous Compounding 
+
+$$
+\lim_{m \rightarrow \infty} [1 + (r/m)]^{m} = e^{r}
+$$
+
+where $e = 2.7818\ldots$ is the base of the natural logarithm. 
+
+The effective annual rate $r^{\prime}$ is the value satisfying $1 + r^{\prime} = e^{r}$
+
+*Example:* If the nominal interest rate is $8\%$ per year, then with continuous compounding the growth would $e^{0.08} = 1.0833$, and hence the effective interest rate is $8.33\%$
+
+We can calculate how much an account will have grown after any arbitrary length of time (including fractional periods). We denote time by the variable $t$, measured in years. Thus $t = 1$ is one year, and $t = 0.25$ is 3 months. 
+
+General formula for compouding:
+
+$$
+[1 + (r/m)]^{k} = [1 + (r/m)]^{mt} = {[1 + (r/m)]^{m}}^{t} \rightarrow e^{rt}
+$$
+
+
+### Debt
+
+If you *borrow* money then the compounding works in exactly the same way but in this case you pay the interest rather than receiving it in the investment case. 
+
+
+### Money Markets
+
+* US Treasury bills: 3, 13, 26, or 52 weeks
+* US Treasury notes: 2, 3, 5, 7, and 10 years
+* US Treasury bonds: 30 years
+
+
+## **2.2 Present Value** 
+
+Discount factor: 
+
+$$
+d_{k} = \frac{1}{[1 + (r/m)]^{k}}
+$$
+
+The present value of a payment of $A$ to be received $k$ periods in the future is $d_{k}A$
+
+$$
+d_{k}A = \frac{1}{[1 + (r/m)]^{k}} \times A = \frac{A}{[1 + (r/m)]^{k}}
+$$
+
+
+## **2.3 Present and Future Values of Streams**
+
+### Ideal Bank 
+
+* Same rate of interest to both deposits and loans
+* Has no service charges or fees 
+* Its interest applies to any size of principal: from 1 cent to $\$1$ million (or more!)
+
+### Future Value 
+
+**Future value of a stream** *Given a cash flow stream ($x_{0}, x_{1}, \ldots, x_{n}$) and interest rate $r$ each period, the future value of the stream is* 
+
+$$
+FV = x_{0} (1 + r)^{n} + x_{1} (1 + r)^{n-1} + \cdots + x_{n}.
+$$
+
+
+### Present Value 
+
+**Present value of a stream** *Given a cash flow stream ($x_{0}, x_{1}, \ldots, x_{n}$) and an interest rate r per period, the present value of the cash flow stream is* 
+
+$$
+PV = x_{0} + \frac{x_{1}}{1 + r} + \frac{x_{2}}{(1 + r)^{2}} + \cdots + \frac{x_{n}}{(1 + r)^{n}}.
+$$
+
+
+### Frequent and Continuous Compounding 
+
+Suppose $r$ is the nominal annual interest rate and interest is compounded at $m$ equally spaced periods per year. Cash flows occur initially and at the end of each of $n$ periods, forming a stream $(x_{0}, x_{1}, \ldots, x_{n})$. Then according to the preceding we can state that
+
+
+$$
+PV = \sum_{k=0}^{n} x(t_{k}) e^{-rt_{k}}
+$$
+
+If the nominal annual interest rate is compounded continuously and cash flows occur at times $t_{0}, t_{1}, \ldots, t_{k}$. Denote the cash flow at time $t_{k}$ by $x(t_{k})$. Then we have
+
+$$
+PV = \sum_{k=0}^{n} x(t_{k})e^{-rt_{k}} \quad \mbox{,}
+$$
+
+which is the continously compounding formula for present value.
+
+### Present Value and an Ideal Bank 
+
+**Main theorem on present value** *The cash flow streams $\textbf{x} = (x_{0}, x_{1}, \ldots, x_{n})$ and $\textbf{y} = (y_{0}, y_{1}, \ldots, y_{n})$ are equivalent for a constant ideal bank with interest rate $r$ if and only if the present values of the two streams, evaluated at the bank's interest rate, are equal.*
+
+See the textbook for the proof.
+
+- This is important because it says that present value is the only number needed to fully characterize a cash flow stream (given an ideal bank)
+- The stream can be transformed in various ways (even engineered!) but as long as the present value remains the same then the streams are equivalent
+- So if you encounter a cash flow stream, it says that all you have to do is to calculate the present value and use the ideal bank to tailor the stream to any shape you desire.
+- This enables the very powerful force of risk transfer. 
+
+
+## **2.4 Internal Rate of Return** 
+
+**Internal rate of return** *Let $(x_{0}, x_{1}, \ldots, x_{n})$ be a cash flow stream. Then the internal rate of return of this stream is a number $r$ satisfying the equation*
+
+$$
+0 = x_{0} + \frac{x_{1}}{(1 + r)} + \frac{x_{2}}{(1 + r)^{2}} + \cdots + \frac{x_{n}}{(1 + r)^{n}}
+$$
+
+*Equivalently, it is a number $r$ satisfying $\frac{1}{(1 + r)} = c$ [that is, $r = (1/c) - 1$], where $c$ satisfies the polynomial equation*
+
+$$
+0 = x_{0} + x_{1}c + x_{2}c^{2} + \cdots + x_{n}c^{n}
+$$
+
+*Example* This example comes from the documentation for the [IRR function](https://support.microsoft.com/en-us/office/irr-function-64925eaa-9988-495b-b290-3ad0c163c1bc) in Microsoft Excel on its website. 
+
+The data for that example are reproduced here for convenience: 
+
+| Data     | Description                    |
+|----------|--------------------------------|
+| -$70,000 | Initial cost of a business     |
+| $12,000  | Net income for the first year  |
+| $15,000  | Net income for the second year |
+| $18,000  | Net income for the third year  |
+| $21,000  | Net income for the fourth year |
+| $26,000  | Net income for the fifth year  |
+
+The internal rate of return (irr) for this cash flow stream is the rate $r$ which solves
+
+$$
+0 = -\$70,000 + \frac{\$12,000}{(1 + r)} + \frac{\$15,000}{(1 + r)^{2}} + \frac{\$18,000}{(1 + r)^{3}} + \frac{\$21,000}{(1 + r)^{4}} + \frac{\$26,000}{(1 + r)^{5}}
+$$
+
+We can us the Python module `numpy-financial`'s `irr` function to solve this as follows:
+
+```{python}
+#| eval: true
+
+import numpy as np
+import numpy_financial as npf
+
+cash_flows = np.array(
+            [-70_000.0, 12_000.0, 15_000.0, 18_000.0, 21_000.0, 26_000.0])
+the_irr = npf.irr(cash_flows)
+print(f"The IRR is: {the_irr}")
+```
+
+
+## **2.5 Evaluation Criteria**
+
+Yada, yada, yada...

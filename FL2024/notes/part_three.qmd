@@ -1,1 +1,1 @@
-# __Option Pricing__
+# __Computational Methods for Fintech__

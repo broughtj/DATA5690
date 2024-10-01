@@ -1,5 +1,93 @@
-# Introduction { .unnumbered }
+# The Course Syllabus { .unnumbered }
 
-This is a book created from markdown and executable code.
+## DATA 5690/6690: Computational Methods for FinTech 
 
-See Knuth for additional discussion of literate programming.
+### Fall 2024
+
+## Course Information
+
+- Dates: Aug 26 -- Dec 13
+- Time: M/W 12:00 -- 1:15 pm 
+- Room: Huntsman Hall 132
+- [Course Canvas Page]()
+- [Course GitHub Page]()
+
+
+## Instructor Information
+
+- [Tyler J. Brough](https://broughtj.github.io/)
+- Office: BUS 719
+- Office Hours: By appointment
+- Email: tyler.brough@usu.edu
+
+
+## Course Description
+
+Fintech is a portmanteau of the words _finance_ and _technology_. One of the main themes of fintech is that financial
+markets institutions and information systems and networks are converging. This course will provide a philosophical,
+historical, and mathematical introduction to the foundations of fintech. 
+
+This course will highlight catallactic theory, operational subjective statistical methods, and real options theory
+as the foundations of modern fintech. Additional topics will be Monte Carlo methods from financial engineering and
+reinforcement learning from machine learning.  
+
+
+## Course Mechanics
+
+* The mode of the course will be the Socratic method. See the first assessment item below. 
+
+* There will be assigned readings announced on each Thursday for the coming week. You should read
+  each assigned source thoroughly and completely. I advise you to take notes, especially in the form
+  of zettelkasten reading notes. More will be said about the zettelkasten method later in the course. 
+
+* At the beginning of each course period I will run a Python program that will implement a PRNG to
+  select one of you to begin our discussion. It is expected that each member of the course will take
+  part in each discussion. Your thorough readings should provide you ample material for ideas, questions,
+  and discussion topics. 
+
+* More will be said about this during class.
+
+
+## Assessment, Deliverables, and Grading 
+
+Your grade in this course will be determined by the following:
+
+* __The Socratic Method__ (25%)
+  - As stated above, the mode of this course will be the Socratic method. 
+  - The main part of this will be to read the book _The Socratic Method: A Practitioner's Handbook_ by Ward Farnsworth.
+  - The first deliverable will be a complete set of annotated bibliographies per chapter.
+  - The second deliverable will be an essay on how the Socratic method possibly serves as a foundation for fintech
+    entrepreneurship. Additional details will be given.
+  - The main component of this item of assessment will be the use of the Socratic method during our course discussions.
+    Your reading of the book will provide you information regarding its proper usage and implementation. 
+
+* __Computational Exercises__ (15%)
+  - There will be multiple assigned computational exercises throughout the course. 
+  - In each case, the deliverable will be a jupyter notebook file. 
+
+* __Midterm Exam__ (30%)
+  - This exam will cover the first two sections of the course.
+  - The deliverable will be a jupyter notebook file.
+
+* __Final Exam__ (30%) 
+  - This exam will be comprehensive, but will mainly focus on options and computational methods in light of the main
+    themes of the course. 
+  - The deliverable will be a jupyter notebook file.
+
+I will provide a grading rubric for each item by which you will be assessed. Students may resubmit their
+deliverables as many times as they wish for re-grading conditional on timely original submission. 
+
+
+## Important Dates 
+
+* 09/02 - Labor Day - no class
+
+* 10/18 - Fall Break - Friday
+
+* 11/27 - 11/29 - Thanksgiving Holiday - Wed-Fri
+
+* 12/02 - 12/06 - No-Test Week
+
+* 12/06 - Last Day of Classes 
+
+* 12/09 - 12/13 - Final Examinations

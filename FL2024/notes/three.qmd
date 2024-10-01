@@ -1,4 +1,4 @@
-# __Probability__ 
+# __The Probability Calculus__ 
 
 
 This section will cover probability. The main references will be Chapter 2 of @MartinezMartinez2016.

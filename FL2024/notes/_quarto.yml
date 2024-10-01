@@ -5,19 +5,22 @@ book:
   title:    "DATA 5690 Class Notes"
   subtitle: "Computational Methods for Fintech"
   author:   "Dr. Tyler J. Brough"
-  date:     "08/14/2024"
+  date:     "08/26/2024"
   chapters:
     - index.qmd
     - intro.qmd
+    - socratic_rubric.qmd
     - part: part_one.qmd
       chapters:
         - one.qmd
+        - midterm_one.qmd
     - part: part_two.qmd
       chapters:
         - two.qmd
         - three.qmd
         - four.qmd
         - five.qmd
+        - computational_exercises.qmd
     - part: part_three.qmd
       chapters:
         - six.qmd
@@ -26,10 +29,12 @@ book:
     - references.qmd
 
 bibliography: references.bib
-csl: taylor-and-francis-apa.csl
+csl: ieee.csl 
 
 format:
   html:
     theme: cosmo
   pdf:
     documentclass: scrreprt
+
+jupyter: python3

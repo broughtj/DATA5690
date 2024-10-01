@@ -1,0 +1,48 @@
+# Midterm I: The Calculation Debate 2.0 { .unnumbered }
+
+In his famous article, the data scientist Michael I. Jordan has argued against the popular view that what is going on in artificial intelligence has to do with human-imitative systems - that is, building *in silico* computational learning algorithms that mimic human intelligence. There are others who strongly disagree. In this midterm, you will be asked to consider this modern debate about the nature of artificial intelligence in the context of the socialist calculation debate between Austrian economists (Mises and Hayek) on the one hand and the market socialists (Lange and Lerner) on the other. You will be evaluated on your understanding and application of the principles that we have discussed in our various readings up to this point in the course.
+
+\vspace{1.5cm}
+
+**1.** In his famous article @JordanHDSR2019, Michael Jordan has claimed that AI is not fundamentally about developing human-imitative intelligence systems. Jordan believes that instead, what is going on is the emergence of a new engineering discipline that we might call *data science* that is about building human *augmentative intelligence* systems and *intelligent infrastructure* systems. On the other hand, the computer scientists Parkes and Wellman (see @ParkesWellmanScience2015) state explicitly: 
+
+> *The field of artificial intelligence (AI) strives to build rational agents capable of perceiving the world around them and taking actions to advance specified goals. Put another way, AI researchers aim to construct a synthetic* ***homo economicus***, *the mythical perfectly rational agent of neoclassical economics.*
+
+- *(a)* Relate Jordan's position in the AI debate to Mises's and Hayek's position in the calculation debate. How are the arguments similar? How do they differ? Emphasize especially the concepts of knowledge problems, dynamic processes, and institutions as coordinating devices. 
+
+- *(b)* In his article, Jordan states that historically other disciplines such as chemistry or biology did not strive to advance their respective fields by designing an artificial agent such as an *artificial chemist* or an *artificial biologist*. Is this true for the field of economics, or could one interpret what Lange and Lerner were trying to do as exactly that: construct an artificial economic planner?
+
+- *(c)* Relate Parkes' and Wellman's project to that of Lange and Lerner. How are the two projects similar? Different? Do any of Mises's or Hayek's arguments to Lange and Lerner apply to Parkes and Wellman? Explain. 
+
+- *(d)* Who do you think won the original calcuation debate and why?
+
+- *(e)* Who do you think is ahead in the current AI debate and why? 
+  
+
+\vspace{1.5cm}
+
+**2.** Phelan and Wenzel, two modern Austrians, have entered the AI debate. See @PhelanWenzelJEBO2023. Not surprisingly, they argue that AI hasn't changed anything fundamental that would change the Austrian position since the time of the original calculation debate. 
+
+- *(a)* Sketch the argument that Phelan and Wenzel make in some detail. How does it relate to the original debate? What things have changed since the early 20th century that makes the debate worth rehashing? Do you find their argument compelling? How does your view of what AI is influence your position? 
+
+- *(b)* Is there anything that you think Phelan and Wenzel get wrong or simply miss or don't understand about modern AI technology? Does this fundamentally change what you think they should conclude? Why or why not? 
+
+
+\vspace{1.5cm}
+
+**3.** In a somewhat recent special volume of the *Econometrics Journal*, there was a scholarly discussion of the role of machine learning in econometrics. In that special volume, Igami seeks to draw parallels between *machine learning* and *structural econometrics*. See @IgamiEcmJour2020. In particular, he mentions the DeepMind AI *AlphaGo* that was trained to play the game of Go and had remarkable success against human opponents. You are not expected to know all of the technical details in these complex papers, but you are expected to understand the basic issues at hand at a high level. 
+
+- *(a)* Please watch the documentary [*AlphaGo*](https://www.youtube.com/watch?v=WXuK6gekU1Y). Take a position on whether or not this is a human imitative or human augmentative system. Defend your answer with logic and evidence and using concepts we have learned together in this class. 
+
+- *(b)* The Editor of the special volume, John Rust, and his colleagues in their introductory article discuss the essential role of human creativity in econometric model building and claim that AI/ML systems will not replace human econometricians any time soon. See @IskhakovRustSchjerningEmcsJour2020. Likewise Bayesian econometrician John Geweke in his fascinating monograph claims that econometric model building takes place in a setting of unstructured uncertainty and requires human creativity. See @Geweke2010, chapter 1. What does this mean? What is the role of human creativity in machine learning and econometrics? How does this relate to Hayekian knowledge problems and the concept of the Austrian entrepreneur? Consider especially James Buchanan's concepts of *natural* and *artifactual* man and *reactive* and *creative* choice. See especially *Natural and Artifacutal Man* in @Buchanan1979 and @Buchanan1982. 
+
+- *(c)* One of the lessons of the socialist calculation debate was an understanding, not just of the feasibility of economic planning in the real world, but of the epistemic problem of Walrasian equilibrium theory. Namely, that there is a parallel in the epistemic problems of the economic planner and the economic theorist. Sketch out this argument. Now, consider an extension of this symmetry in the modern AI debate. Sketch out a similar epistemic symmetry between the Austrian entrepreneur engaged in economic calculation and the Geweke-style creative econometrician. How is their knowledge problem similar? How deep does this analogy go and what does this mean for econometric modeling building and practice? 
+
+- *(d)* How do you think AI/ML will effect econometric theory? Include in your answer a working definition of what AI/ML is for you. 
+
+
+
+
+
+
+

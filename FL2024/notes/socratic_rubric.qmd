@@ -1,0 +1,21 @@
+# Grading Rubric for the Socratic Method { .unnumbered }
+
+* At the beginning of the semester, I will allocate each student 60 points. 
+
+* Points will be deducted as follows: 
+  - Missing a class without a valid excuse provided in advance: -10 points 
+  - If Emmy or I witness you using your cell phone during class for reasons other than class discussion: -2 points
+  - Coming to class late: every portion of 5-minute intervals: -2 points (10 points max)
+  - If Emmy or I witness you using your laptop for non-course discussion related purposes: -4 points
+  - Talking with a neighbor -- outside of group work times: -3 points
+  - Starting in Part II of the class, points will be deducted for unpreparedness in class discussions. This deduction will increase each week. This is to ensure that students who have done well through the first part of the course remain fully motivated. 
+  
+* You will earn points by correctly responding to in-class questions, and performing in-class exercises. We will use a randomization device to select participants. 
+  * Points awarded will depend on the type of question and the quality, comprehensiveness, and thoughtfulness of your answer.
+  * In-class exercises, in which you are asked to live code in front of class, are worth more than general discussion points. The former may earn up to 10 points while the latter may earn up to 2 points.
+  * Asking an insightful question that reveals a depth of understanding: 1 point (to a maximum of 6)
+  * Bringing in an outside source from scholarly literature or popular media that supports our discussion: 1 or 2 points (to a maximum of 10 points)
+  * Demonstrating an example of synoptic reading and searching: 1 or 2 points (to a maximum of 10 points)
+
+* Note that early on you can really only be deducted points for unprofessional behavior. As the semester progresses you can only earn points by demonstrating mastery and understanding of the course material.
+

@@ -1,3 +1,10 @@
-# __Catallactics__
+# __Catallactics__ { .unnumbered }
 
 This chapter will cover theory of catallactics. See @Mises2007a.
+
+
+## Mises on Economic Calculation
+
+**Economic Calculation** The process by which fallible men acting in a changing world choose, on the basis of monetary prices, among an infinite variety of imaginable and possible methods of production. Economic calculation in the absence of a generally accepted medium of exchange (money) is inconceivable. In a market economy, money prices stem from the bids and asks of producers and consumers. Thus, prices reflect the rel- ative urgency of their various wants. The prices at which goods and ser- vices are exchanged influence the choices consumers and producers make when bidding for natural resources and final products, as well as for produced and semi-produced factors of production. Higher (lower) prices reflect greater (lesser) demand and/or greater (lesser) scarcity of a good or service and induce users to conserve (splurge), and/or expand (contract) production. Thus market prices enable individuals—consumers and entrepreneurs — to calculate and to guide production so that the means available tend to be devoted to the most urgent wants, leaving no more urgently felt want unsatisfied. The two requisites for economic calculation are (1) private ownership, not only of consumers’ goods but also of factors of production, and (2) a common denominator, money, in which relative values may be expressed. Mises pointed out in 1920 that such calculations would be impossible in a socialist economy — because the two conditions for economic calculation would be lacking. Socialist planners would have to rely on outside prices to determine relative market values. This thesis evoked a lively, and ongoing, debate, as defenders of socialism attempted to refute Mises.
+
+

@@ -1,81 +1,37 @@
 {
-  description = "A Python 3.12 environment with Poetry, Quarto, Numpy, Scipy, Matplotlib, JAX, PyYAML, IPython, JupyterLab, and Tectonic";
+  description = "Quarto book environment with Python, LaTeX, and scientific libraries";
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
+    flake-utils.url = "github:numtide/flake-utils";
   };
 
-  outputs = { self, nixpkgs, ... }: let
-    systems = [ "x86_64-darwin" "aarch64-darwin" ];
-    lib = nixpkgs.lib;
-  in
-  {
-    packages = lib.genAttrs systems (system: let
-      pkgs = import nixpkgs {
-        inherit system;
-        overlays = [
-          (final: prev: {
-            curio = prev.curio.overrideAttrs (oldAttrs: {
-              doCheck = false;
-            });
-          })
-        ];
-      };
-      pythonEnv = pkgs.python312.withPackages (pythonPackages: with pythonPackages; [
-        pandas
-        numpy
-        scipy
-        matplotlib
-        jax
-        pyyaml
-        ipython
-        jupyterlab
-      ]);
-    in
-    {
-      default = pkgs.mkShell {
-        buildInputs = [
-          pythonEnv
-          pkgs.poetry     # Add Poetry to the environment
-          pkgs.quarto     # Add Quarto to the environment
-          pkgs.tectonic   # Add Tectonic (LaTeX distribution) to the environment
-          pkgs.texlive.combined.scheme-full  # Add Texlive medium scheme to include pdflatex
-        ];
-      };
-    });
+  outputs = { self, nixpkgs, flake-utils }:
+    flake-utils.lib.eachDefaultSystem (system:
+      let
+        pkgs = nixpkgs.legacyPackages.${system};
+        pythonPackages = pkgs.python310Packages;
+      in
+      {
+        devShell = pkgs.mkShell {
+          # System Packages
+          buildInputs = [
+            pkgs.python310           # Python 3.10
+            pkgs.quarto              # Quarto for writing the book
+            pkgs.texlive.combined.scheme-full  # Full LaTeX for rendering PDFs
+            pkgs.git                 # Git for version control
+            pkgs.direnv              # Direnv for environment management
+          ];
 
-    devShells = lib.genAttrs systems (system: let
-      pkgs = import nixpkgs {
-        inherit system;
-        overlays = [
-          (final: prev: {
-            curio = prev.curio.overrideAttrs (oldAttrs: {
-              doCheck = false;
-            });
-          })
-        ];
-      };
-      pythonEnv = pkgs.python312.withPackages (pythonPackages: with pythonPackages; [
-        pandas
-        numpy
-        scipy
-        matplotlib
-        jax
-        pyyaml
-        ipython
-        jupyterlab
-      ]);
-    in
-    {
-      default = pkgs.mkShell {
-        buildInputs = [
-          pythonEnv
-          pkgs.poetry     # Add Poetry to the environment
-          pkgs.quarto     # Add Quarto to the environment
-          pkgs.tectonic   # Add Tectonic (LaTeX distribution) to the environment
-          pkgs.texlive.combined.scheme-full # Add Texlive medium scheme to include pdflatex
-        ];
-      };
-    });
-  };
+          # Python packages installed with pip
+          PIP_REQUIRE_VIRTUALENV = "true";
+          shellHook = ''
+            if [ ! -d .venv ]; then
+              python3 -m venv .venv
+            fi
+            source .venv/bin/activate
+            pip install numpy_financial pandas numpy scipy matplotlib jax pyyaml ipython jupyter
+          '';
+        };
+      });
 }

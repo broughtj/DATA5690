@@ -1,2 +1,27 @@
-# __Monte Carlo Methods for Option Pricing__
+# __Computational Methods for Option Pricing__
+
+> _The most important maxim for data analysis to heed, and one which many statisticians seem to have shunned, is
+> this: "Far better an approximate answer to the_ ___right___ _question, which is often vague, than an_ ___exact___
+> _answer to the wrong question, which can always be made precise." Data analysis must progress by approximate 
+> answers, at best, since its knowledge of what the problem really is will at best be approximate. It would be 
+> a mistake not to face up to this fact, for by denying it, we would deny ourselves the use of a great body of 
+> approximate knowledge, as well as failing to maintain alertness to the possible importance in each particular
+> instance of particular ways in which our knowledge is incomplete._ [@TukeyAMS1962, pp. 13--14]
+
+> _Turning to the succor of modern computing machines, let us renounce all analytical tools._ -- Richard Bellman,
+  _Dynamic Programming_ 
+
+> _Some might view the reliance on Monte Carlo methods as defective relative to mathematical analysis.... On the 
+> contrary, I believe that Monte Carlo methods ... can be superior to mathematical analysis.... Using Monte Carlo
+> methods frees the applied statistician to explore a great variety of models with relative ease, and thus 
+> statisticians can pursue the scientific goals of matching models to data more effectively and with less 
+> algebraic digression than if mathematical analysis were the only tool... Bayesian statistics and Monte Carlo 
+> methods are ideally suited to the taks of passing many models over one data set._ -- [@RubinAnnStat1984, pp. 1158--1159]
+
+> _That we are thus_ ___uncertain___ _about the answer to a numerical problem is one of the two central insights of_
+> ___probabilistic numerics___ _(PN).... The second of the central insights of PN is that a numerical algorithm can 
+> treated as an_ ___agent___. _For our purposes, an agent is an entity able to take actions so as to achieve its 
+> goals. These agents make predictions, and then use the predictions to decide how to interact with the environment.
+> Machine learning often aims to build such agent, most explicitly within its subfield of reinforcement learning._ --
+[@HennigOsborneKersting2022, pp. 1--2.]
 

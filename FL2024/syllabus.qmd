@@ -1,4 +1,4 @@
-__DATA 5690: Computational Methods for Fintech__
+# __DATA 5690: Computational Methods for Fintech__
 
 ### Fall 2024
 
