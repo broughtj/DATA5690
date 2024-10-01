@@ -1,37 +1,37 @@
 {
-  description = "Quarto book environment with Python, LaTeX, and scientific libraries";
+  description = "A Nix flake for a Quarto book project with Python";
 
   inputs = {
-    nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
+    nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
     flake-utils.url = "github:numtide/flake-utils";
   };
 
   outputs = { self, nixpkgs, flake-utils }:
     flake-utils.lib.eachDefaultSystem (system:
       let
-        pkgs = nixpkgs.legacyPackages.${system};
-        pythonPackages = pkgs.python310Packages;
+        pkgs = import nixpkgs { inherit system; };
+        python-with-packages = pkgs.python3.withPackages (ps: with ps; [
+	  jax 
+	  jupyter
+          numpy
+          pandas
+	  scipy
+        ]);
       in
       {
-        devShell = pkgs.mkShell {
-          # System Packages
+        devShells.default = pkgs.mkShell {
           buildInputs = [
-            pkgs.python310           # Python 3.10
-            pkgs.quarto              # Quarto for writing the book
-            pkgs.texlive.combined.scheme-full  # Full LaTeX for rendering PDFs
-            pkgs.git                 # Git for version control
-            pkgs.direnv              # Direnv for environment management
+            python-with-packages
+            pkgs.quarto
+            pkgs.texlive.combined.scheme-full
           ];
 
-          # Python packages installed with pip
-          PIP_REQUIRE_VIRTUALENV = "true";
           shellHook = ''
-            if [ ! -d .venv ]; then
-              python3 -m venv .venv
-            fi
-            source .venv/bin/activate
-            pip install numpy_financial pandas numpy scipy matplotlib jax pyyaml ipython jupyter
+            echo "Welcome to your Quarto book project environment!"
+            echo "Python, Quarto, and LaTeX are available."
+            echo "Python packages installed: numpy, pandas"
           '';
         };
-      });
+      }
+    );
 }

@@ -168,7 +168,7 @@ $$
 We can us the Python module `numpy-financial`'s `irr` function to solve this as follows:
 
 ```{python}
-#| eval: true
+#| eval: false
 
 import numpy as np
 import numpy_financial as npf
