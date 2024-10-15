@@ -1,8 +1,8 @@
 project:
   type: book
 
-jupyter:
-  kernel: python3 
+jupyter: python3
+
 book:
   title:    "DATA 5690 Class Notes"
   subtitle: "Computational Methods for Fintech"

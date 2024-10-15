@@ -1,4 +1,4 @@
-# __Operational Subjective Statistical Methods__
+# __Operational Subjective Statistical Methods__ { .unnumbered }
 
 > _The thesis we propound ... is that scientific reasoning is reasoning in accordance with the calculus
 > of probabilities._ [@HowsonUrbach2006, p. 10]

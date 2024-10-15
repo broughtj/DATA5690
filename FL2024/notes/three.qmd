@@ -1,6 +1,377 @@
-# __The Probability Calculus__ 
+# __The Probability Calculus__ { .unnumbered }
 
 
-This section will cover probability. The main references will be Chapter 2 of @MartinezMartinez2016.
+This section will cover probability. The main references will be Chapter 2 of @MartinezMartinez2015.
+
+## Introduction
+
+This presentation is chosen to be representative of the typical approach. 
+
+## Probability
+
+### Background
+
+Some definitions: 
+
+* *random experiment* -- a process or action whose outcome cannot be predicted with certainty 
+
+* *sample space* -- the set of all outcomes from an experiment 
+  
+* *random variable* -- denoted by uppercase letters, such as $X$. Technically, a real-valued function defined on the sample space
+
+* *discrete random variable* -- can take on values from a finite or countably infinite set of numbers 
+  * Ex: number of defective parts, number of typographical errors on a page
+
+* *continuous random variable* -- can take on values from an interval or real numbers 
+  * Ex: inter-arrival times of planes at runway, weight of tablets in pharmaceutical production line, voltage of a power plant at different times
+
+**Q:** which type of random variable are prices?  
+
+**NB:** we cannot list all outcomes from an experiment when we observe a continuous random variable because there are an infinite number of possibilities. But we can specify the interval of values that $X$ can take on. 
+
+* Ex: if the r.v. is tensile strength of cement, then the sample space might be $(0, \infty) \quad kg/cm^{2}$
+
+* *event* -- is a subset of outcomes in the sample space.
+  * Ex: a piston ring is defective or that the tensile strength of cement is in the range $40$ to $50 \quad kg/cm^{2}$
 
 
+**Notation** 
+
+Discrete random variables: letting $1$ represent a defective piston ring and letting $0$ represent a good piston ring, then the probability of the event that the piston ring is defective is
+
+$$
+P(X = 1)
+$$
+
+Continuous random variables: Let $X$ denote the tensile strength of cement. The probability that an observed tensile stength is in the range $40$ to $50 \quad kg/cm^{2}$ is 
+
+$$
+P(40 \quad kg/cm^{2} \le X \le 50 \quad kg/cm^{2})
+$$
+
+
+* *mutually exclusive events* -- events that cannot occur simultaneously or jointly
+  * Ex: heads and tails of a coin flip
+
+### Probability 
+
+* *probability* -- a measure of the likelihood that some event will occur (or that an observed outcome will take on certain values)
+
+* *probability distribution* -- describes the probabilities associated with each possible value for the random variable  
+
+* *equally likelihood model* (classical) -- for an experiment where each of $n$ possible outcomes is equally likely, then we assign probability mass of $1/n$ to each outcome
+  * Ex: flipping a fair coin, tossing a fair die, or randomly selecting a card from a standard deck of cards
+
+* *relative frequency method* (frequentist) -- we conduct an experiment $n$ times and record the outcome 
+
+$$
+P(E) = \frac{f}{n}
+$$
+
+where $f$ denotes the number of experimental outcomes that satisfy event $E$
+
+* *probability density function* -- $f(x)$ for a continuous random variable  
+
+* *probability mass function* -- $f(x)$ for a discrete random variable
+
+To find the probability that a continuous random variable falls in a particular interval of real numbers, we have to calculate the appropriate area under the curve of $f(x)$. 
+
+$$
+P(a \le X \le b) = \int_{a}^{b} f(x)dx
+$$
+
+From the text:
+
+> The area under the curve of $f(x)$ between $a$ and $b$ represents the probability that an observed value of the random variable $X$ will assume a value between $a$ and $b$. This concept is illustrated in Figure 2.1 where the shaded area represents the desired probability.
+
+**NB:** a valid probability density function should be non-negative, and the total area under the curve must equal $1$.
+
+
+* *cumulative distribution function* -- $F(X)$ is defined as the probability that the random variable $X$ assumes a value less than or equal to a given $x$ 
+
+$$
+F(x) = P(X \le x) = \int_{-\infty}^{x} f(t)dt
+$$
+
+\vspace{1cm}
+
+For a discrete random variable $X$, that can take on values $x_{1}, x_{2}, \ldots$, the probability mass function is given by
+
+$$
+f(x_{i}) = P(X = x_{i}); \quad i = 1, 2, \ldots
+$$
+
+and the cumulative distribution function is
+
+$$
+F(a) = \sum_{x_{i} \le a} f(x_{i}) \quad i = 1, 2, \ldots
+$$
+
+
+### The Axioms of Probability 
+
+We let $S$ represent the sample space and $E$ be an event that is a subset of $S$.
+
+\vspace{0.75cm}
+
+**AXIOM 1**
+
+*The probability of event $E$ must be between $0$ and $1$*:
+
+$$
+0 \le P(E) \le 1
+$$
+
+\vspace{0.75cm}
+
+**AXIOM 2**
+
+$$
+P(S) = 1
+$$
+
+\vspace{0.75cm}
+
+**AXIOM 3**
+
+*For mutually exclusive events $E_{1}, E_{2}, \ldots, E_{k}$*,
+
+$$
+P(E_{1} \cup E_{2} \cup \ldots \cup E_{k}) = \sum\limits_{i=1}^{k} P(E_{i})
+$$
+
+
+Notes: 
+
+* Axiom 1 states that a probability must be between $0$ and $1$
+
+* Axiom 2 says that an outcome from the experiment must occur
+
+* Axiom 3 enables us to calculate the probability that at least one of the mutually exclusive events $E_{1}, E_{2}, \ldots, E_{k}$ occurs by summing the individual probabilities
+
+
+## Conditional Probability and Independence 
+
+### Conditional Probability
+
+*Conditional probability arises in situations where we need to calculate a probability based on sume partial information concerning the experiment, and we will see that it plays a vital role in supervised learning applications.*
+
+The *conditional probability* of event $E$ given event $F$ is defined as follows: 
+
+\vspace{0.75cm}
+
+**CONDITIONAL PROBABILITY** 
+
+$$
+P(E \vert F) = \frac{P(E \cap F)}{P(F)}; \quad P(F) > 0.
+$$
+
+Here $P(E \cap F)$ represents the *joint probability* that both $E$ and $F$ occur together, and $P(F)$ is the probability that event $F$ is the probability that event $F$ occurs. 
+
+\vspace{0.75cm}
+
+**MULTIPLICATION RULE**
+
+$$
+P(E \cap F) = P(F) P(E \vert F)
+$$
+
+
+### Independence
+
+If *events* are *independent*, then knowing that one event has occurred does not change our degree of belief or the likelihood that the other event occurs. If *random variables* are independent, then the observed value of one random variable does not affect the observed value of another. 
+
+In general, the conditional probability $P(E \vert F)$ is not equal to $P(E)$. In these cases, the events are called *dependent*. 
+
+\vspace{0.75cm}
+
+**INDEPENDENT EVENTS**
+
+*Two events $E$ and $F$ are said to be independent if an only if any of the following are true:*
+
+$$
+\begin{aligned}
+& P(E \cap F) = P(E) P(F) \\
+& P(E) = P(E \vert F)
+\end{aligned}
+$$
+
+**NB:** if $E$ and $F$ are independent then the multiplication rule becomes 
+
+$$
+P(E \cap F) = P(E) P(F)
+$$
+
+This can be extended to $k$ events 
+
+$$
+P(E_{1} \cap E_{2} \cap \ldots \cap E_{k}) = \prod_{i=1}^{k} P(E_{i})
+$$
+
+where events $E_{i}$ and $E_{j}$ (for all $i$ and $j$, $i \ne j$) are independent.
+
+
+### Bayes' Theorem
+
+**BAYES' THEOREM** 
+
+$$
+P(E_{i} \vert F) = \frac{P(E_{i}) P(F \vert E_{i})}{P(E_{1})P(F \vert E_{1}) + \cdots + P(E_{k})P(F \vert E_{k})}
+$$
+
+\newpage 
+
+## Appendix: Notes on Set Theory
+
+Will use capital letters such as $A, B, C$ to denote sets of points. If the elemonts in a set are $a_{1}, a_{2}, a_{3}$ we will write
+
+$$
+A=\left\{a_{1}, a_{2}, a_{3}\right\}
+$$
+
+Let $S$ be the set of all elements under consideration. in other words $S$ is the universal set.
+
+
+### Subset 
+
+Take two sets $A$ and $B$. $A$ is a subset of $B$, or $A$ is contained in $B$, denoted
+
+$$
+A \subset B
+$$
+
+if every element of $A$ is also in $B$.
+
+\vspace{1.5cm}
+
+The null set or empty set, denoted by $\emptyset$ is the set containing no points. Thus $\emptyset$ is a subset of every set.
+
+We can visualize set's with Venn diagrams.
+
+\vspace{1cm}
+
+**Venn Diagram for $A \subset B$**
+
+* TODO: insert graph here!
+
+
+### Union 
+
+Consider now two arbitrary sets $A$ and $B$. The union of $A$ and $B$, denoted $A \cup B$ is the set of points in $A$ or $B$ or both. That is, the union of $A$ and $B$ contains all points in at least one of the sets.
+
+We can express this using *set builder notation*:
+
+$$
+A\cup B = \{x : x \in A \text{ or } x \in B\}
+$$
+
+**Venn Diagram for $A \cup B$**
+
+* TODO: insert graph here. 
+
+The key word is "or" (meaning $A$ or $B$ or both). 
+
+
+### Intersection 
+
+The intersection of $A$ and $B$, denoted by $A \cap B$ is the set of all points in both $A$ and $B$
+
+$$
+A \cap B =\{x : x \in A \text{ and } x \in B\}
+$$
+
+The key word here is "and"
+
+*Venn Diagram for $A \cap B$*
+
+* TODO: insert graph here!
+
+
+### Compliment  
+
+If $A$ is a subset of $S$, then the compliment of $A$, denoted by $\bar{A}$, is the set of all points that are in $S$, but not in $A$.
+
+$$
+\bar{A} = \{x : x \in S \quad | \quad x \notin A\}
+$$
+
+**Venn Diagram for $\bar{A}$**
+
+* TODO: insert graph here!
+
+*NB:* $A \cup \bar{A} = S$
+
+
+### Disjoint 
+
+Two sets $A$ and $B$ are said to be mutually exclusive or disjoint if $A \cap B = \emptyset$. That is, mutually exclusive sets have no points in common.
+
+**Venn Diagram for $A \cup B = \emptyset$**
+
+* TODO: insert graph here!
+
+
+### An Example
+
+Consider, the example of tossing a die.
+
+$$
+S = \{1,2,3,4,5,6\}
+$$
+
+Let 
+$$
+\begin{aligned}
+& A = \{1,2\} \\
+& B = \{1,3\} \\
+& C = \{2,4,6\}
+\end{aligned}
+$$
+
+
+* $A \cup B = \{1,2,3\} \quad \text{ they are NOT disjoint }$
+
+* $A \cap B = \{1\}$
+
+* $\bar{A} = \{3,4,5,6\}$
+
+* $B \cup C = \emptyset \quad \text{ are disjoint }$
+
+* $A \cup \bar{A} = \{1,2,3,4,5,6\} \quad \text{ the Universal set }$
+
+
+### Conditional Probability in Set Notation 
+
+
+$$
+P(A \mid B) = \frac{P(A \cap B)}{P(B)}
+$$
+
+Note:
+
+$$
+P(B \mid A) = \frac{P(A \cap B)}{P(B)}
+$$
+
+Thus
+
+$$
+P(A \cap B) = P(B \mid A) P(A)
+$$
+
+and
+
+$$
+P(A \cap B) = P(A \mid B) P(B)
+$$
+
+and thus
+
+$$
+\begin{aligned}
+& P(A \mid B) P(B) = P(B \mid A) P(A) \\
+& P(A \mid B) = \frac{P(B \mid A) P(A)}{P(B)}
+\end{aligned}
+$$
+
+This is ***Bayes' Rule***!

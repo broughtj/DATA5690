@@ -1,4 +1,4 @@
-# __Computational Methods for Option Pricing__
+# __Computational Methods for Option Pricing__ { .unnumbered }
 
 > _The most important maxim for data analysis to heed, and one which many statisticians seem to have shunned, is
 > this: "Far better an approximate answer to the_ ___right___ _question, which is often vague, than an_ ___exact___

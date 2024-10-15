@@ -1,0 +1,101 @@
+## Lecture Outline for Computational Statistics Handbook with MATLAB -- Chapter 2
+
+**Chapter 2: Probability Concepts**
+
+**2.1 Introduction**
+* Importance of probability in computational statistics
+* Examples of how probability is used in various statistical applications
+
+**2.2 Probability**
+* Background
+    * **Random experiment:** An experiment whose outcome cannot be predicted with certainty.
+    * Examples of random experiments in different fields:
+        * Flipping a coin
+        * Rolling a die
+        * Measuring the height of a randomly selected person
+        * Observing the number of cars passing through an intersection in an hour
+    * **Sample space:** The set of all possible outcomes of a random experiment.
+    * **Random variable:** A function that assigns a numerical value to each outcome in the sample space.
+    * **Discrete vs. continuous random variables:**
+        * **Discrete random variable:** A random variable that can take on only a countable number of values.
+        * **Continuous random variable:** A random variable that can take on any value within an interval.
+    * **Event:** A subset of the sample space.
+    * **Probability notation:**
+        * $P(A)$: The probability of event A.
+        * $P(A \cap B)$: The probability of events A and B occurring simultaneously.
+        * $P(A \cup B)$: The probability of event A or B occurring (or both).
+        * $P(A|B)$: The conditional probability of event A occurring given that event B has already occurred.
+
+* Probability definition and methods of assigning probabilities
+    * **Equal likelihood model:** If all outcomes in the sample space are equally likely, then the probability of an event is the number of outcomes in the event divided by the total number of outcomes in the sample space.
+    * **Relative frequency method:** The probability of an event is estimated by the number of times the event occurs in a large number of trials.
+    * **Probability density/mass functions:**
+        * **Probability mass function (PMF):** For a discrete random variable, the PMF gives the probability that the variable takes on a specific value.
+        * **Probability density function (PDF):** For a continuous random variable, the PDF gives the relative likelihood of the variable taking on a specific value.
+    * **Cumulative distribution function (CDF):** The CDF gives the probability that a random variable is less than or equal to a certain value.
+    * **Axioms of probability:**
+        * $0 \leq P(A) \leq 1$ for any event A.
+        * $P(S) = 1$, where S is the sample space.
+        * If A and B are mutually exclusive events, then $P(A \cup B) = P(A) + P(B)$.
+
+**2.3 Conditional Probability and Independence**
+* Conditional probability definition and multiplication rule
+    * The conditional probability of event A occurring given that event B has already occurred is defined as:
+        * $P(A|B) = P(A \cap B) / P(B)$ for $P(B) > 0$
+    * The multiplication rule states that the probability of events A and B occurring simultaneously is:
+        * $P(A \cap B) = P(A|B)P(B)$
+* Independent events definition and properties
+    * Two events A and B are independent if and only if $P(A \cap B) = P(A)P(B)$.
+* Bayes' theorem derivation and general form
+    * Bayes' theorem is a formula that relates the conditional probability of event A given event B to the conditional probability of event B given event A. It is derived from the definition of conditional probability and the multiplication rule.
+
+**2.4 Expectation**
+* Mean (expected value) definition for discrete and continuous variables
+    * The mean (or expected value) of a random variable X is the weighted average of all possible values of X, where the weights are the corresponding probabilities.
+    * For a discrete random variable: $E(X) = \sum_{x \in S} xP(X=x)$
+    * For a continuous random variable: $E(X) = \int_{-\infty}^{\infty} xp(x) dx$
+* Variance definition for discrete and continuous variables
+    * The variance of a random variable X is a measure of how spread out the distribution of X is.
+    * For a discrete random variable: $Var(X) = E[(X-E(X))^2]$
+    * For a continuous random variable: $Var(X) = \int_{-\infty}^{\infty} (x-E(X))^2p(x) dx$
+* Moments and central moments
+    * The kth moment of a random variable X is defined as $E(X^k)$.
+    * The kth central moment of a random variable X is defined as $E[(X-E(X))^k]$.
+* Skewness and kurtosis definitions and interpretations
+    * Skewness is a measure of the asymmetry of a distribution.
+    * Kurtosis is a measure of the "tailedness" of a distribution.
+
+**2.5 Common Distributions**
+* Discrete distributions
+    * Binomial distribution (Bernoulli trials, properties, examples)
+        * The binomial distribution models the number of successes in n independent Bernoulli trials, where each trial has probability p of success.
+    * Poisson distribution (properties, Poisson process, examples)
+        * The Poisson distribution models the number of events occurring in a fixed interval of time or space, where the events occur independently and at a constant rate.
+* Continuous distributions
+    * Uniform distribution
+        * The uniform distribution is a continuous distribution where all values within a given interval are equally likely.
+    * Normal (Gaussian) distribution (properties, standard normal, examples)
+        * The normal distribution is a continuous distribution that is often used to model real-world data. It is characterized by its bell-shaped curve.
+    * Exponential distribution (memoryless property, examples)
+        * The exponential distribution is a continuous distribution that is often used to model the time between events in a Poisson process. It has the memoryless property, which means that the probability of an event occurring in the next time interval does not depend on how long it has already been since the last event.
+    * Gamma distribution (relationship to exponential, examples)
+        * The gamma distribution is a continuous distribution that is a generalization of the exponential distribution. It is often used to model the time until the occurrence of a series of events.
+    * Chi-square distribution (special case of gamma)
+        * The chi-square distribution is a special case of the gamma distribution. It is often used in statistical hypothesis testing.
+    * Weibull distribution (applications in reliability, examples)
+        * The Weibull distribution is a continuous distribution that is often used to model the lifetime of objects.
+    * Beta distribution (flexibility, examples)
+        * The beta distribution is a continuous distribution that is often used to model proportions or probabilities.
+    * Student's t distribution (relationship to normal, examples)
+        * The Student's t distribution is a continuous distribution that is similar to the normal distribution, but has heavier tails. It is often used in statistical inference when the sample size is small.
+    * Multivariate normal distribution (properties, examples)
+        * The multivariate normal distribution is a generalization of the normal distribution to multiple dimensions. It is often used to model the joint distribution of multiple random variables.
+    * Multivariate t distribution
+        * The multivariate t distribution is a generalization of the Student's t distribution to multiple dimensions.
+
+**2.6 MATLAB® Code**
+* Overview of MATLAB functions for common distributions
+* Functions in the Computational Statistics Toolbox
+
+**2.7 Further Reading**
+* Recommendations for probability textbooks and resources

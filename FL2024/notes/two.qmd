@@ -3,7 +3,7 @@
 
 This section will cover basic time value of money calculations. The main references will [@Luenberger2013, Chapter 2].
 
-## **2.1 Principal and Interest**
+## **Principal and Interest**
 
 ### Simple Interest 
 
@@ -62,7 +62,7 @@ If you *borrow* money then the compounding works in exactly the same way but in 
 * US Treasury bonds: 30 years
 
 
-## **2.2 Present Value** 
+## **Present Value** 
 
 Discount factor: 
 
@@ -77,7 +77,7 @@ d_{k}A = \frac{1}{[1 + (r/m)]^{k}} \times A = \frac{A}{[1 + (r/m)]^{k}}
 $$
 
 
-## **2.3 Present and Future Values of Streams**
+## **Present and Future Values of Streams**
 
 ### Ideal Bank 
 
@@ -132,7 +132,7 @@ See the textbook for the proof.
 - This enables the very powerful force of risk transfer. 
 
 
-## **2.4 Internal Rate of Return** 
+## **Internal Rate of Return** 
 
 **Internal rate of return** *Let $(x_{0}, x_{1}, \ldots, x_{n})$ be a cash flow stream. Then the internal rate of return of this stream is a number $r$ satisfying the equation*
 
@@ -145,6 +145,11 @@ $$
 $$
 0 = x_{0} + x_{1}c + x_{2}c^{2} + \cdots + x_{n}c^{n}
 $$
+
+**Main theorem of internal rate of return** *Suppose the cash flow stream $(x_{0}, x_{1}, \ldots, x_{n})$ has $x_{0} < 0$ and $x_{k} \ge 0$ for all $k$, $k = 1, 2, \ldots, n$, with at least one term being strictly positive. Then there is a unique positive root to the equation* $0 = x_{0} + x_{1}c + x_{2}c^{2} + \cdots + x_{n}c^{n}$.
+
+\newpage
+
 
 *Example* This example comes from the documentation for the [IRR function](https://support.microsoft.com/en-us/office/irr-function-64925eaa-9988-495b-b290-3ad0c163c1bc) in Microsoft Excel on its website. 
 
@@ -168,7 +173,7 @@ $$
 We can us the Python module `numpy-financial`'s `irr` function to solve this as follows:
 
 ```{python}
-#| eval: false
+#| eval: true
 
 import numpy as np
 import numpy_financial as npf
@@ -176,10 +181,16 @@ import numpy_financial as npf
 cash_flows = np.array(
             [-70_000.0, 12_000.0, 15_000.0, 18_000.0, 21_000.0, 26_000.0])
 the_irr = npf.irr(cash_flows)
-print(f"The IRR is: {the_irr}")
+print(f"The IRR is: {the_irr : .5f}")
 ```
 
+Here is the same result using Microsoft Excel:
 
-## **2.5 Evaluation Criteria**
+![Microsoft Excel IRR function](./images/excel_1.png){width=60%}
 
-Yada, yada, yada...
+
+## **Evaluation Criteria**
+
+### Net Present Value
+
+Yada

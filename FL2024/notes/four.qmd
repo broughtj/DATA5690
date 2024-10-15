@@ -1,4 +1,4 @@
-# __Sampling Theory__
+# __Sampling Theory__ { .unnumbered }
 
 
 This chapter will cover the frequentist approach to probability and statistics. The main reference will be
