@@ -1,0 +1,80 @@
+---
+title: "Grading Rubric for Midterm I: The Calculation Debate 2.0"
+---
+
+## Question 1 (36 points total)
+
+### a) Jordan's position vs. Mises and Hayek (9 points)
+- Accurate explanation of Jordan's position (2 points)
+- Accurate explanation of Mises and Hayek's position (2 points)
+- Comparison of similarities (2 points)
+- Comparison of differences (2 points)
+- Discussion of knowledge problems, dynamic processes, and institutions as coordinating devices (1 point)
+
+### b) Artificial economic planner (5 points)
+- Understanding of Jordan's argument about other disciplines (2 points)
+- Analysis of economics in this context (1 point)
+- Interpretation of Lange and Lerner's work as constructing an artificial economic planner (2 points)
+
+### c) Parkes & Wellman vs. Lange & Lerner (9 points)
+- Explanation of Parkes & Wellman's project (2 points)
+- Explanation of Lange & Lerner's project (2 points)
+- Comparison of similarities (2 points)
+- Comparison of differences (2 points)
+- Application of Mises's or Hayek's arguments to Parkes & Wellman (1 point)
+
+### d) Original calculation debate winner (6 points)
+- Clear position statement (2 points)
+- Logical reasoning (2 points)
+- Use of relevant course concepts (2 points)
+
+### e) Current AI debate status (7 points)
+- Clear position statement (2 points)
+- Logical reasoning (3 points)
+- Use of relevant course concepts and current AI developments (2 points)
+
+## Question 2 (28 points total)
+
+### a) Phelan and Wenzel's argument (19 points)
+- Detailed sketch of their argument (5 points)
+- Relation to the original debate (3 points)
+- Discussion of changes since the early 20th century (3 points)
+- Personal evaluation of the argument's compelling nature (4 points)
+- Reflection on how personal view of AI influences position (4 points)
+
+### b) Critique of Phelan and Wenzel (9 points)
+- Identification of potential errors or omissions (4 points)
+- Analysis of how these affect their conclusions (3 points)
+- Personal opinion with justification (2 points)
+
+## Question 3 (27 points total)
+
+### a) AlphaGo analysis (7 points)
+- Clear position on human imitative vs. augmentative system (2 points)
+- Logical defense of position (2 points)
+- Use of evidence from the documentary (2 points)
+- Application of course concepts (1 point)
+
+### b) Human creativity in econometrics and AI/ML (7 points)
+- Explanation of unstructured uncertainty and human creativity (2 points)
+- Relation to Hayekian knowledge problems (2 points)
+- Discussion of Austrian entrepreneur concept (1 point)
+- Application of Buchanan's concepts (2 points)
+
+### c) Epistemic symmetry analysis (7 points)
+- Explanation of epistemic problem in Walrasian equilibrium theory (2 points)
+- Sketch of symmetry between economic planner and theorist (2 points)
+- Sketch of symmetry between Austrian entrepreneur and creative econometrician (2 points)
+- Analysis of the depth and implications of this analogy (1 point)
+
+### d) AI/ML effect on econometric theory (6 points)
+- Working definition of AI/ML (2 points)
+- Thoughtful prediction of AI/ML's effect on econometric theory (2 points)
+- Justification of prediction using course concepts (2 points)
+
+## Overall (9 points)
+- Clarity and organization of responses (3 points)
+- Depth of understanding of course materials (3 points)
+- Quality of critical thinking and analysis (3 points)
+
+Total: 100 points

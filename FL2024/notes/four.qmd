@@ -4,9 +4,254 @@
 This chapter will cover the frequentist approach to probability and statistics. The main reference will be
 Chapter 3 of @MartinezMartinez2016. 
 
+## Lectures on Statistical Inference
 
-## Rational Expectations 
+Here are two lectures covering core concepts of statistical inference, complete with examples, a study guide, and a glossary:
 
-- Sargent's agent/econometrician/God quote
+### Lecture 1: Introduction to Statistical Inference
 
-- Adrian Smith's totalitarian parody quote
+**Statistical inference focuses on drawing conclusions about a population based on information obtained from a sample.** It encompasses methods like estimating population parameters, testing hypotheses, and building probability density estimates. The reliability of our inferences hinges on the sample being representative of the population, often achieved through random sampling.
+
+#### Sample Mean and Sample Variance
+
+**Sample Mean**
+
+$$
+\bar{X} = \frac{1}{n}\sum\limits_{i=1}^{n} X_{i}
+$$
+
+
+**Sample Variance**
+
+$$
+S^{2} = \frac{1}{n-1}\sum\limits_{i=1}^{n} (X_{i} - \bar{X})^{2}
+$$
+
+
+**Sample Standard Deviation**
+
+$$
+S = \sqrt{\frac{1}{n-1}\sum\limits_{i=1}^{n} (X_{i} - \bar{X})^{2}}
+$$
+
+
+#### Sampling Distributions 
+
+The ***sampling distribution*** is the probability distribution for a statistic.
+
+**NB:** *a statistic is a random variable.* 
+
+##### The Law of Large Numbers
+
+**Law of Large Numbers** *(LLN) is a theorem that describes the result of performing the same experiment a large number of times. According to the LLN, the average of the results obtained from a large number of trials should be arbitrarily close to the expected value, and will tend to become closer as more trials are performed.*
+
+See the Wikipedia article on the [Law of Large Numbers](https://en.wikipedia.org/wiki/Law_of_large_numbers) for more details.
+
+***Definition***
+
+The law which states that the larger a sample, the nearer its mean is to that of the parent population from which the sample is drawn. More formally: for every $\varepsilon > 0$, the probability
+
+$$
+\{|\bar{Y} - Y| > \varepsilon \} \rightarrow 0 \quad \mbox{as} \quad n \rightarrow \infty
+$$
+
+where $n$ is the sample size, $\bar{Y}$ is the sample mean, and $\mu$ is the parent mean.
+
+More rigorous definitions are the following:
+
+For i.i.d sequences of one-dimensional random variables $Y_{1}, Y_{2}, \ldots$, let $\bar{Y}_{n} = \frac{1}{n} \sum\limits_{i=1}^{n} Y_{i}$.
+
+The *weak law of large numbers* states that $\bar{Y}_{n}$ converges in probability to $\mu = E\{Y_{i}\}$ if $E\{|Y_{i}|\} < \infty$.
+
+The *strong law of large numbers* states that $\bar{Y}_{n}$ converges almost surely to $\mu$ if $E\{|Y_{i}|\} < \infty$.
+
+Both results hold under the more stringent but easily checked condition that $var\{Y_{i}\} = \sigma^{2} < \infty$.
+
+##### Using Simulation to Check the Law of Large Numbers
+
+We can use simulation to check the Law of Large Numbers. Consider a fair die with six sides and outcomes $Y = \{1, 2, 3, 4, 5, 6\}$, each with $P[Y_{i} = y] = \frac{1}{6}$. The true mean is 
+
+$$ \mu = E\{Y\} = \frac{1}{6}[1 + 2 + 3 + 4 + 5 + 6] = 3.5$$
+
+We can verify this in `Python`:
+
+```{python}
+#| eval: false
+
+import numpy as np
+import matplotlib.pyplot as plt 
+ 
+m = 10000
+sizes = np.arange(1,m + 1)
+means = np.zeros((m,))
+
+for i in range(len(sizes)):
+    y = np.random.randint(1,7, size=sizes[i])
+    means[i] = y.mean()
+    
+plt.plot(means, 'g', lw = 2.5)
+plt.grid(True)
+plt.title("Simulating the Toss of a Fair Die to Demonstrate the Law of Large Numbers")
+plt.xlabel("Sample Size")
+plt.ylabel("Estimated Mean")
+```
+
+
+
+**Central Limit Theorem**
+
+*Let $f(x)$ represent a probability density with finite variance $\sigma^{2}$ and mean $\mu$. Also, let $\bar{X}$ be the sample mean for a random sample of size $n$ drawn from this distribution. For large $n$, the distribution of $\bar{X}$ is approximately normally distributed with mean $\mu$ and variance given by $\frac{\sigma^{2}}{n}$.*
+
+The theorem that states that, if samples of size $n$ are taken from a parent population with mean $\mu$ and standard deviation $\sigma$, then the distribution of their means will be approximately normal with:
+
+$$\mbox{Mean} = \mu$$
+
+and
+
+$$\mbox{Standard deviation} = \frac{\sigma}{\sqrt{n}}$$
+
+As the sample size $n$ increases, this distribution approaches the normal distribution with increasing accuracy. Thus in the limit, as $n \rightarrow \infty$, the distribution of the sample means $\rightarrow$ Normal, mean $\mu$, standard deviation $\sigma / \sqrt{n}$.
+
+If the parent population is itself normal, the distribution of the sample means will be normal, whatever the sample size. If the parent population is of finite size $N$, two possibilties arise:
+
+1. If the sampling is carried out with replacement, the theorem stands as stated;
+2. If there is no replacement, the standard deviation of the sample mean is:
+
+$$
+\frac{\sigma}{\sqrt{n}} \sqrt{\frac{N - n}{N - 1}}
+$$
+
+The factor $\sqrt{\frac{N - n}{N - 1}}$ is called the **finite population correction.**
+
+The central limite theorem provides the basis for much of sampling theory; it can be summed up, as follows. If $n$ is not small, the sampling distribution of the means is approximately normal, has $\mbox{mean} = \mu$ (the parent mean), and has standard deviation $\sigma / \sqrt{n}$ (where $\sigma$ is the parent standard deviation).
+
+
+##### Using Simulation to Check the Central Limit Theorem
+
+We can use simulation to build intuition for the central limit theorem as well. Consider the mean of a sample from an exponential distribution. Recall that the density of the exponential distribution is the following:
+
+$$
+f(x) = \frac{1}{\theta}e^{-x/\theta}
+$$
+
+for $\theta > 0$ and $x > 0$.
+
+In Python we can simulate from the exponential distribution as follows:
+
+```{python}
+#| eval: false
+
+np.random.exponential(size=100)
+```
+
+```{python}
+#| eval: false
+
+import numpy as np
+import matplotlib.pyplot as plt
+from scipy.stats import gaussian_kde
+
+m = 10000
+n = 1000 # start at 10 and move up to 10000
+
+means = np.zeros((m,))
+
+for i in range(m):
+    x = np.random.exponential(size=n)
+    means[i] = x.mean()
+    
+density = gaussian_kde(means)
+xs = np.linspace(0.5,1.5,200)
+density.covariance_factor = lambda : .25
+density._compute_covariance()
+plt.plot(xs,density(xs), lw = 2)
+plt.title("Kernel Densit Plot")
+plt.grid(True)
+plt.show()
+``` 
+
+
+
+
+**Key Terms:**
+
+*   **Population:** The entire group of objects or individuals we seek information about.
+*   **Sample:**  A subset of the population selected for observation.
+*   **Parameter:** A numerical characteristic of a population (e.g., mean ($\mu$), standard deviation ($\sigma$)).
+*   **Statistic:** A function of the observed data in a sample, used to estimate a population parameter (e.g., sample mean ($\bar{X}$), sample standard deviation ($S$)).
+*   **Sampling Distribution:** The probability distribution of a statistic.
+
+**Types of Sampling:**
+
+*   **Simple Random Sampling:** Each sample of size n has an equal chance of being selected. Can be done with or without replacement.
+*   **Stratified Random Sampling:** The population is divided into levels (strata), and a random sample is taken from each level.
+
+**Estimators and Their Properties:**
+
+*   **Estimator:** A function that maps the data space to the parameter space, used to estimate population parameters from sample data. It's a statistic and, if the sample is random, a random variable.  Denoted as $T(X_{1}, X_{2}, \ldots, X_{n})$.
+*   **Bias:**  The difference between the expected value of an estimator and the true parameter value. An unbiased estimator has zero bias.
+*   **Mean Squared Error (MSE):** Measures the average squared difference between an estimator and the true parameter value. MSE is the sum of the variance and the squared bias of the estimator.
+*   **Efficiency:** Compares estimators based on their MSE. A more efficient estimator has a lower MSE.
+*   **Standard Error:** The standard deviation of the sampling distribution of an estimator. It measures the precision of the estimator.
+
+**Study Guide:**
+
+1.  **Define statistical inference and its primary goals.**
+2.  **Differentiate between a population and a sample, a parameter and a statistic.**
+3.  **Describe the importance of sampling distributions in statistical inference.**
+4.  **Explain the concept of an estimator and discuss its desirable properties: unbiasedness, low MSE, high efficiency, and low standard error.**
+
+### Lecture 2: Methods of Parameter Estimation
+
+**This lecture introduces common methods for deriving estimators and explores criteria for evaluating their performance:**
+
+**Maximum Likelihood Estimation (MLE):**
+
+*   **Likelihood Function:** Represents the probability of observing the given sample data as a function of the unknown parameter(s).
+*   **Maximum Likelihood Estimator:**  The value of the parameter that maximizes the likelihood function, making the observed data most probable. Found by solving the likelihood equation: dL(θ)/dθ = 0, where L(θ) is the likelihood function.
+
+**Method of Moments:**
+
+*   **Population Moments:** Expected values of powers of the random variable (e.g., mean (μ = E[X]), variance (σ² = E[X²] - μ²)).
+*   **Sample Moments:** Analogous to population moments, but calculated from the sample data.
+*   **Method of Moments Estimation:**  Expresses population parameters in terms of population moments and then substitutes them with corresponding sample moments to obtain parameter estimates.
+
+**Example: Estimating Normal Distribution Parameters:**
+
+For a random sample from a normal distribution with unknown mean (μ) and variance (σ²):
+
+*   **MLE:** The MLE for μ is the sample mean (X̅), and the MLE for σ² is the sample variance (S²) multiplied by (n-1)/n to correct for bias.
+*   **Method of Moments:** Would yield the same estimators as MLE in this case.
+
+**Empirical Distribution Function and Quantiles:**
+
+*   **Empirical Distribution Function (EDF):** A nonparametric estimate of the cumulative distribution function, based on the order statistics of the sample.
+*   **Quantile:**  A value that divides the distribution into segments with specific probabilities. For example, the median (q\_{0.5}) divides the distribution into two equal halves.
+*   **Estimating Quantiles:** Can be done using the EDF, interpolation methods, or other specialized techniques.
+
+**Study Guide:**
+
+1.  **Describe the principles of maximum likelihood estimation and explain how to find MLEs.**
+2.  **Explain the method of moments estimation and discuss its steps.**
+3.  **Define the empirical distribution function and its uses.**
+4.  **Explain the concept of quantiles and describe methods for estimating them from data.**
+
+
+### Glossary:
+
+*   **Population:** The complete set of elements under study.
+*   **Sample:** A subset of the population selected for analysis.
+*   **Parameter:** A descriptive measure of a population.
+*   **Statistic:** A descriptive measure of a sample.
+*   **Estimator:** A function used to estimate a population parameter from a sample.
+*   **Sampling Distribution:** Probability distribution of a statistic.
+*   **Bias:**  Average difference between an estimator and the true parameter.
+*   **Mean Squared Error (MSE):** Average squared difference between an estimator and the true parameter.
+*   **Efficiency:** Compares estimators based on their MSE.
+*   **Standard Error:** Standard deviation of an estimator's sampling distribution.
+*   **Likelihood Function:** Probability of observing the data given parameter values.
+*   **Maximum Likelihood Estimator (MLE):** Parameter value maximizing the likelihood function.
+*   **Population Moments:** Expected values of powers of a random variable.
+*   **Sample Moments:**  Counterparts to population moments, computed from sample data.
+*   **Empirical Distribution Function (EDF):** A nonparametric estimate of the CDF.
+*   **Quantile:** Value dividing a distribution into segments with specific probabilities.
