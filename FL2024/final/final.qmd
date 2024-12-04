@@ -45,11 +45,15 @@ Discuss the possibility of Mises' monetary calculation as the necessary institut
 
 ## **Question 3.** 
 
-@CulpMiller1995a [see also @CulpMiller1995b] provide an academic defense of Metallgesellschaft Refining & Marketing's (MGRM) energy hedging strategy based upon the research of [Holbrook Working](https://en.wikipedia.org/wiki/Holbrook_Working). Their defense of MGRM rests on an understanding of their hedging strategy as dynamic arbitrage called _synthetic storage_ as an example of what Working called _carry-charge hedging_. Outline the basics of this strategy. What financial contracts were traded? How? (_Hint:_ you should know the difference between a stack-and-roll hedge vs a strip hedge and why it matters).
+@CulpMillerJACF1995a [see also @CulpMillerJACF1995b] provide an academic defense of Metallgesellschaft Refining & Marketing's (MGRM) energy hedging strategy based upon the research of [Holbrook Working](https://en.wikipedia.org/wiki/Holbrook_Working). Their defense of MGRM rests on an understanding of their hedging strategy as dynamic arbitrage called _synthetic storage_ as an example of what Working called _carry-charge hedging_. Outline the basics of this strategy. What financial contracts were traded? How? (_Hint:_ you should know the difference between a stack-and-roll hedge vs a strip hedge and why it matters).
 
 At the heart of MGRM's strategy was the creation and maintenance of novel long-term delivery contracts for heating oil and natural gas. Propose an interpretation of this strategy as a real-world example of what Nobelist [James M. Buchanan](https://en.wikipedia.org/wiki/Special:Search?go=Go&search=james+m+buchanan&ns0=1) has referred to as _creative arbitrage_. How does this strategy depend upon Misesian-Hayekian-de Finettian microfoundations? Do you find this explanation compelling? Why or why not? Defend your position with logic and evidence.
 
 The following additional resources should be helpful (all available on Canvas):
+
+* @CulpMillerJACF1995a *Metallgesellschaft and the Economics of Synthetic Storage* 
+
+* @CulpMillerJACF1995b *Hedging in the Theory of Corporate Finance*
 
 * @BuchananSEJ1964 *What Should Economists Do?* 
 
@@ -64,24 +68,46 @@ The following additional resources should be helpful (all available on Canvas):
 
 ## **Question 4.** 
 
-[Pirrong (1997)](https://www.bauer.uh.edu/spirrong/pirrongmg.pdf) strongly criticizes MGRM from the perspective of neoclassical (mainstream) finance theory. Pirrong's critique is based upon an understanding of hedging as exclusively defined as minimum-variance hedging for risk mitigation purposes only. Pirrong classifies MGRM's strategy as wildly "speculative" from this perspective.
+@PirrongJFM1997 strongly criticizes MGRM from the perspective of neoclassical (mainstream) finance theory. Pirrong's critique is based upon an understanding of hedging as exclusively defined as minimum-variance hedging for risk mitigation purposes only. Pirrong classifies MGRM's strategy as wildly "speculative" from this perspective.
 
-<br>
 
-- __(a)__ Pirrong's argument rests on a strong econometric foundation by which an optimal minimum-variance hedge ratio is derived. His model is called _Backwardation-Adjusted GARCH_ or _BAG_. Given the MLE coefficients that Pirrong reports in Table V, simulate a single time path of the BAG model and plot the resulting optimal hedge ratios. Comment on the dynamics of the hedge ratios over time.
+- __(a)__ Pirrong's argument rests on a strong econometric foundation by which an optimal minimum-variance hedge ratio is derived. His model is called _Backwardation-Adjusted GARCH_ or _BAG_. Pirrong provides plots of the dynamics of the hedge ratio over time in Figures 1 -- 3. Comment on these dynamics. What is the pattern?  
 
-- __(b)__ Pirrong's critique rests upon the frequentist tradition of specifying a "corrrect" model for the data-generating process. Discuss this modeling philosophy. Do you find Pirrong's empirical findings compelling regarding a specification of the true model? Are there any issues such as overfit, numerical instability, unreported competing model specifications, etc that might cause you to be skeptical? Discuss.
+- __(b)__ Pirrong's critique rests upon the frequentist tradition of specifying a "corrrect" model for the data-generating process. Discuss this modeling philosophy. Do you find Pirrong's empirical findings compelling regarding a specification of the true model? Are there any issues such as overfit, numerical instability, unreported competing model specifications, etc that might cause you to be skeptical? Discuss [especially in light of our discussion of @Leamer1978 and his concept of the *Axiom of Specification*]. Has Pirrong taken the *con* out of econometrics?! 
 
 - __(c)__ In the conclusion of his paper Pirrong invokes Bayes' Rule (presumably via the Dutch Book Theorem) to suggest strong doubt regarding the possibility of MGRM's possession of an informational advantage to support an arbitrage view of their hedging strategy. Why do you think he does this? How does it connect to the reported (frequentist) econometric methods in the paper? Is there a Bayesian interpretation of these methods? If so, why didn't Pirrong simply provide a full Bayesian model? Do you find his argument convincing? Why or why not. Defend you answer with logic, evidence, and probability and econometric theory.
 
-<br>
 
 You may also find the following additional resources helpful (all available on Canvas):
 
 
-- [Culp (2004) Chapter 14 - Hedge Ratios](https://www.wiley.com/en-us/Risk+Transfer:+Derivatives+in+Theory+and+Practice-p-9780471464983).
+- @Culp2004 *Chapter 14 - Hedge Ratios*
 
-- @MurrayTAS1994 *The Drunk and Her Dog: An Illustration of Cointegration and Error Correction*  
+- @MurrayTAS1994 *The Drunk and Her Dog: An Illustration of Cointegration and Error Correction* 
+
+- @Leamer1978 *Chapter 1* 
+
+- @LeamerAER1983 *Let's Take the Con Out of Econometrics* 
+
+- @LeamerJEP2010 *Tantalus on the Road to Asymptopia* 
+
+- @PirrongJFM1997 *Metallgesellschaft: A Prudent Hedger Ruined, Or a Wildcatter on NYMEX?* 
+
+\vspace{5mm}
+
+## **Question 5.** 
+
+@PirrongJFM1997 makes the compelling claim that whether or not MGRM's strategy was successful as @CulpMillerJACF1995a claim cannot be determined on an a priori basis but is instead an empirical question. [Bollen & Whaley (1998)](https://scholar.google.com/scholar?cluster=10820252363050604815&hl=en&as_sdt=5,45&sciodt=0,45) take this claim from Pirrong as their point of departure for their analysis. However, rather than proposing a definition of optimal hedging and imposing it upon the MGRM, Bollen & Whaley take Culp & Miller's claim at face value and evaluate the empirical success or failure of MGRM's strategy based on their own self-reported metric.
+
+<br>
+
+- __(a)__ Is Pirrong guilty of _lecturing birds on flying_? Why or why not. Defend your position with logic, evidence, and theory.
+
+- __(b)__ Interpret Bollen & Whaley's _simulating supply_ model as an example of Brock et al's empirical approach. See [Brock, Lakonishok, and Lebaron (1992)](https://www.jstor.org/stable/pdf/2328994.pdf) and [Brock & de Lima (1996)](https://www.sciencedirect.com/science/article/abs/pii/S016971619614013X). Compare and contrast this approach to Pirrong's approach. How are they similar? How are they different? Can Bollen's & Whaley's approach be given a Bayesian interpretation? Can we understand the resulting simulated profit and loss distribution of MGRM's hedging strategy as a Bayesian posterior predictive density? Interpret this in light of Pirrong's rational Bayesian. Do the empirical findings of Bollen & Whaley strengthen or challenge Pirrong's Bayesian claim?
+
+- __(c)__ Using the MLE estimates reported in Table B simulate 5k sample paths of the Bollen & Whaley model for heating oil. Plot the histogram. Discuss how to next add the hedging analysis and determine if MGRM's strategy was successful. Just describe the latter - no need to fully simulate it!
+
+- __(d)__ Based upon [Rubin (1984)](https://www.jstor.org/stable/2240995) can you suggest a modeling strategy to make Bollen's & Whaley's analysis fully _Bayesianly justifiable_?
 
 
 \newpage
