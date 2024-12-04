@@ -35,11 +35,54 @@ We have argued that the third pillar should be rightly conceived of as the catal
 
 \vspace{5mm}
 
-## **Question 2** 
+## **Question 2.** 
 
 Throughout this course we have argued that the focus on _market process_ and the _entrepreneur-as-arbitrageur_ is the key strength of callactic theory to serve as a fundamental theory underlying fintech. At the same time, we have noted that perhaps the greatest limitation of catallactics in serving this role is its weak foundation in probability theory. We have offered the subjective Bayesian derivation of probability due to Bruno de Finetti as a possible way to augment catallactic theory to provide the missing foundational probability theory. Ludwig von Mises - one of the founders of catallatics - emphasized the essential role of monetary calculation by the entrepreneur as the central driver of the market process. See @HorwitzRAE2004 and @HorwitzHOPE1998. 
 
-Discuss the possibility of Mises' monetary calculation as the necessary institutional foundations for de Finetti's derivation of subjective probability. Can we properly understand de Finetti's derivation of probability as a catallactic theory? See @NauTD2001. Is the Dutch Book Theorem a catallactic theory resting upon Misesian microfoundations? See also [Pressacco & Ziani (2010)](https://www.openstarts.units.it/server/api/core/bitstreams/7fc58188-4be9-4c7b-ad36-8b291b6d8a78/content).
+Discuss the possibility of Mises' monetary calculation as the necessary institutional foundations for de Finetti's derivation of subjective probability. Can we properly understand de Finetti's derivation of probability as a catallactic theory? See @NauTD2001. Is the Dutch Book Theorem a catallactic theory resting upon Misesian microfoundations? See also @PressaccoZiani2010.
+
+\vspace{5mm}
+
+## **Question 3.** 
+
+@CulpMiller1995a [see also @CulpMiller1995b] provide an academic defense of Metallgesellschaft Refining & Marketing's (MGRM) energy hedging strategy based upon the research of [Holbrook Working](https://en.wikipedia.org/wiki/Holbrook_Working). Their defense of MGRM rests on an understanding of their hedging strategy as dynamic arbitrage called _synthetic storage_ as an example of what Working called _carry-charge hedging_. Outline the basics of this strategy. What financial contracts were traded? How? (_Hint:_ you should know the difference between a stack-and-roll hedge vs a strip hedge and why it matters).
+
+At the heart of MGRM's strategy was the creation and maintenance of novel long-term delivery contracts for heating oil and natural gas. Propose an interpretation of this strategy as a real-world example of what Nobelist [James M. Buchanan](https://en.wikipedia.org/wiki/Special:Search?go=Go&search=james+m+buchanan&ns0=1) has referred to as _creative arbitrage_. How does this strategy depend upon Misesian-Hayekian-de Finettian microfoundations? Do you find this explanation compelling? Why or why not? Defend your position with logic and evidence.
+
+The following additional resources should be helpful (all available on Canvas):
+
+* @BuchananSEJ1964 *What Should Economists Do?* 
+
+* @Buchanan1979  *Chapter 4 - General Implications of Subjectivism in Economics*
+
+* @Buchanan1979 *Chapter 5 - Natural and Artifactual Man*
+
+* @Buchanan1979  *Chapter 16 - Retrospect and Prospect*
+
+* @Buchanan1982 *Chapter 2 - The Domain of Subjective Economics: Between Predictive Science and Moral Philosophy*
+
+
+## **Question 4.** 
+
+[Pirrong (1997)](https://www.bauer.uh.edu/spirrong/pirrongmg.pdf) strongly criticizes MGRM from the perspective of neoclassical (mainstream) finance theory. Pirrong's critique is based upon an understanding of hedging as exclusively defined as minimum-variance hedging for risk mitigation purposes only. Pirrong classifies MGRM's strategy as wildly "speculative" from this perspective.
+
+<br>
+
+- __(a)__ Pirrong's argument rests on a strong econometric foundation by which an optimal minimum-variance hedge ratio is derived. His model is called _Backwardation-Adjusted GARCH_ or _BAG_. Given the MLE coefficients that Pirrong reports in Table V, simulate a single time path of the BAG model and plot the resulting optimal hedge ratios. Comment on the dynamics of the hedge ratios over time.
+
+- __(b)__ Pirrong's critique rests upon the frequentist tradition of specifying a "corrrect" model for the data-generating process. Discuss this modeling philosophy. Do you find Pirrong's empirical findings compelling regarding a specification of the true model? Are there any issues such as overfit, numerical instability, unreported competing model specifications, etc that might cause you to be skeptical? Discuss.
+
+- __(c)__ In the conclusion of his paper Pirrong invokes Bayes' Rule (presumably via the Dutch Book Theorem) to suggest strong doubt regarding the possibility of MGRM's possession of an informational advantage to support an arbitrage view of their hedging strategy. Why do you think he does this? How does it connect to the reported (frequentist) econometric methods in the paper? Is there a Bayesian interpretation of these methods? If so, why didn't Pirrong simply provide a full Bayesian model? Do you find his argument convincing? Why or why not. Defend you answer with logic, evidence, and probability and econometric theory.
+
+<br>
+
+You may also find the following additional resources helpful (all available on Canvas):
+
+
+- [Culp (2004) Chapter 14 - Hedge Ratios](https://www.wiley.com/en-us/Risk+Transfer:+Derivatives+in+Theory+and+Practice-p-9780471464983).
+
+- @MurrayTAS1994 *The Drunk and Her Dog: An Illustration of Cointegration and Error Correction*  
+
 
 \newpage
 
