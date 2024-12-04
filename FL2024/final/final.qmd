@@ -2,8 +2,45 @@
 title: "DATA 5690: Final Project"
 author: Tyler J. Brough
 date: "December 4, 2024"
+bibliography: biblio.bib
+jupyter: python3
 ---
 
-## Quarto
+## **Introduction**
 
-Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+Blah, blah, blah
+
+
+## **Question 2.** 
+
+Fintech is traditionally defined as a combination of finance and technology based on big data, machine learning and artificial intelligence, and cryptocurrencies and blockchain technologies. The economist Xavier Vives as defined fintech as follows:
+
+> _"Fintech may be understood as the use of innovative information and
+automation technology in financial services. New digital technologies
+automate a wide range of financial activities and may provide new and more
+cost-effective products in parts of the financial sector, ranging from lending
+to asset management, and from portfolio advice to the payment system."_[^1]
+
+We note that the data scientist @JordanHDSR2019 ([see also](https://people.eecs.berkeley.edu/~jordan/)) has argued for a definition of data science as a new and emerging engineering discipline that rests upon three foundational pillars:
+
+- __1.__ The _inferential_ from probability and statistics.
+
+- __2.__ The _algorithmic_ from theoretical computer science.
+
+- __3.__ The _social-institutional_ from economics.
+
+We have argued that the third pillar should be rightly conceived of as the catallactics of the exchange paradigm from the Austrian tradition of economics. Make the strongest case you can for this latter claim for fintech as a specialization of data science in the Jordan sense with obvious ties to financial markets and institutions. Why is an economic theory that focuses on process and which explicitly incorporates the entrepreneurial role and institutional evolution required? What are the greatest limitations for the theory of catallactics in this role? Is it possible to extend or augment catallactic theory to overcome these limitations? How?
+
+[^1]: https://blog.iese.edu/xvives/files/2018/02/EE_2.2017.pdf#page=99
+
+\vspace{5mm}
+
+## **Question 2** 
+
+Throughout this course we have argued that the focus on _market process_ and the _entrepreneur-as-arbitrageur_ is the key strength of callactic theory to serve as a fundamental theory underlying fintech. At the same time, we have noted that perhaps the greatest limitation of catallactics in serving this role is its weak foundation in probability theory. We have offered the subjective Bayesian derivation of probability due to Bruno de Finetti as a possible way to augment catallactic theory to provide the missing foundational probability theory. Ludwig von Mises - one of the founders of catallatics - emphasized the essential role of monetary calculation by the entrepreneur as the central driver of the market process. See @HorwitzRAE2004 and @HorwitzHOPE1998. 
+
+Discuss the possibility of Mises' monetary calculation as the necessary institutional foundations for de Finetti's derivation of subjective probability. Can we properly understand de Finetti's derivation of probability as a catallactic theory? See @NauTD2001. Is the Dutch Book Theorem a catallactic theory resting upon Misesian microfoundations? See also [Pressacco & Ziani (2010)](https://www.openstarts.units.it/server/api/core/bitstreams/7fc58188-4be9-4c7b-ad36-8b291b6d8a78/content).
+
+\newpage
+
+# References 
