@@ -97,17 +97,15 @@ You may also find the following additional resources helpful (all available on C
 
 ## **Question 5.** 
 
-@PirrongJFM1997 makes the compelling claim that whether or not MGRM's strategy was successful as @CulpMillerJACF1995a claim cannot be determined on an a priori basis but is instead an empirical question. [Bollen & Whaley (1998)](https://scholar.google.com/scholar?cluster=10820252363050604815&hl=en&as_sdt=5,45&sciodt=0,45) take this claim from Pirrong as their point of departure for their analysis. However, rather than proposing a definition of optimal hedging and imposing it upon the MGRM, Bollen & Whaley take Culp & Miller's claim at face value and evaluate the empirical success or failure of MGRM's strategy based on their own self-reported metric.
+@PirrongJFM1997 makes the compelling claim that whether or not MGRM's strategy was successful as @CulpMillerJACF1995a claim cannot be determined on an a priori basis but is instead an empirical question. @BollenWhaley1998 take this claim from Pirrong as their point of departure for their analysis. However, rather than proposing a definition of optimal hedging and imposing it upon the MGRM, Bollen \& Whaley take Culp \& Miller's claim at face value and evaluate the empirical success or failure of MGRM's strategy based on their own self-reported metric.
 
 <br>
 
-- __(a)__ Is Pirrong guilty of _lecturing birds on flying_? Why or why not. Defend your position with logic, evidence, and theory.
+- __(a)__ Is Pirrong guilty of _lecturing birds on flying_? Why or why not? Defend your position with logic, evidence, and theory.
 
-- __(b)__ Interpret Bollen & Whaley's _simulating supply_ model as an example of Brock et al's empirical approach. See [Brock, Lakonishok, and Lebaron (1992)](https://www.jstor.org/stable/pdf/2328994.pdf) and [Brock & de Lima (1996)](https://www.sciencedirect.com/science/article/abs/pii/S016971619614013X). Compare and contrast this approach to Pirrong's approach. How are they similar? How are they different? Can Bollen's & Whaley's approach be given a Bayesian interpretation? Can we understand the resulting simulated profit and loss distribution of MGRM's hedging strategy as a Bayesian posterior predictive density? Interpret this in light of Pirrong's rational Bayesian. Do the empirical findings of Bollen & Whaley strengthen or challenge Pirrong's Bayesian claim?
+- __(b)__ Interpret Bollen \& Whaley's _simulating supply_ model in the light of @Poirier2011. Can you interpret Bollen's \& Whaley's analysis as *approximately Bayesian*? How so? Compare and contrast this approach to Pirrong's approach. How are they similar? How are they different? Can we understand the resulting simulated profit and loss distribution of MGRM's hedging strategy as a Bayesian posterior predictive density? Interpret this in light of Pirrong's rational Bayesian. Do the empirical findings of Bollen \& Whaley strengthen or challenge Pirrong's Bayesian claim?
 
-- __(c)__ Using the MLE estimates reported in Table B simulate 5k sample paths of the Bollen & Whaley model for heating oil. Plot the histogram. Discuss how to next add the hedging analysis and determine if MGRM's strategy was successful. Just describe the latter - no need to fully simulate it!
-
-- __(d)__ Based upon [Rubin (1984)](https://www.jstor.org/stable/2240995) can you suggest a modeling strategy to make Bollen's & Whaley's analysis fully _Bayesianly justifiable_?
+- __(c)__ Using the MLE estimates reported in Table B simulate 5k sample paths of the Bollen \& Whaley model for heating oil. Plot the histogram. Discuss how to next add the hedging analysis and determine if MGRM's strategy was successful. Just describe the latter - no need to fully simulate it!
 
 
 \newpage
