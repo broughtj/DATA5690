@@ -65,6 +65,7 @@ The following additional resources should be helpful (all available on Canvas):
 
 * @Buchanan1982 *Chapter 2 - The Domain of Subjective Economics: Between Predictive Science and Moral Philosophy*
 
+\vspace{5mm}
 
 ## **Question 4.** 
 
@@ -95,17 +96,39 @@ You may also find the following additional resources helpful (all available on C
 
 \vspace{5mm}
 
+
 ## **Question 5.** 
 
 @PirrongJFM1997 makes the compelling claim that whether or not MGRM's strategy was successful as @CulpMillerJACF1995a claim cannot be determined on an a priori basis but is instead an empirical question. @BollenWhaley1998 take this claim from Pirrong as their point of departure for their analysis. However, rather than proposing a definition of optimal hedging and imposing it upon the MGRM, Bollen \& Whaley take Culp \& Miller's claim at face value and evaluate the empirical success or failure of MGRM's strategy based on their own self-reported metric.
 
-<br>
 
 - __(a)__ Is Pirrong guilty of _lecturing birds on flying_? Why or why not? Defend your position with logic, evidence, and theory.
 
 - __(b)__ Interpret Bollen \& Whaley's _simulating supply_ model in the light of @Poirier2011. Can you interpret Bollen's \& Whaley's analysis as *approximately Bayesian*? How so? Compare and contrast this approach to Pirrong's approach. How are they similar? How are they different? Can we understand the resulting simulated profit and loss distribution of MGRM's hedging strategy as a Bayesian posterior predictive density? Interpret this in light of Pirrong's rational Bayesian. Do the empirical findings of Bollen \& Whaley strengthen or challenge Pirrong's Bayesian claim?
 
 - __(c)__ Using the MLE estimates reported in Table B simulate 5k sample paths of the Bollen \& Whaley model for heating oil. Plot the histogram. Discuss how to next add the hedging analysis and determine if MGRM's strategy was successful. Just describe the latter - no need to fully simulate it!
+
+\vspace{5mm}
+
+
+## **Question 6.** 
+
+In this class I have made the case for an Austrian market process theory augmented by the subjective probability theory of Bruno de Finetti as the necessary economic foundations for fintech in the sense of @JordanHDSR2019. In this question you will be asked to evaluate this claim.
+
+- __(a)__ De Finetti famously wrote: ***"PROBABILITY DOES NOT EXIST"***! Interpret this statement. What are the consequences for neoclassical economic theory if we take de Finetti's proposition seriously? What are the consequences for Austrian catallactic theory? 
+
+- __(b)__ @BuchananDiPierroSEJ1980 claim that decision theory (even in its subjective form) is too rigid and inflexible to model creative and entrepreneurial choice. In what situations do Buchanan \& Di Pierro think decision theory applies? Do you agree with Buchanan \& Di Pierro?  
+
+- __(c)__ Explain the difference between the paradigms of parametric vs predictive inference. Why does this matter for entrepreneurial choice? What does it have to do with economic calculation? 
+
+- __(d)__ @HarperJIE2010 made a unique (Austrian!) argument for understanding numerical toolkits as economic institutions. Does this help build a bridge between the Austrians and de Finetti? Why or why not? If so, how?
+
+- __(e)__ @LachmannJEL1976 made the case for extending the Austrian subjectivism of Mises and Hayek to economic expectations. He suggested that G.L.S. Shackle was the one who made this case best. What if, instead of Shackle, Lachmann had chosen de Finetti as his representative of subjective expectations? How would Austrian economics have developed differently? 
+
+- __(f)__ Can we make the case for *"From Mises to de Finetti?"*  
+
+- __(g)__ Does probability exist? 
+
 
 
 \newpage
