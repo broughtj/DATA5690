@@ -2,7 +2,7 @@ syllabus:
 	quarto render syllabus.qmd --to pdf
 
 notes:
-	quarto render notes --to pdf
+	quarto render notes/ --to pdf
 
 prelim:
 	quarto render prelim --to pdf
