@@ -1,0 +1,26 @@
+---
+title: "DATA 5690-6690: Midterm 1"
+author: Tyler J. Brough
+date: "September 2, 2025"
+bibliography: biblio.bib
+jupyter: python3
+---
+
+# **Introduction**
+
+Blah, blah, blah
+
+# Section 1: Philosophical Foundations
+
+
+
+# Section 2: Historical Context
+
+
+
+# Section 3: Quantitative Methods
+
+
+\newpage
+
+# References 
